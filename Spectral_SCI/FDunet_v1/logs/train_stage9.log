@@ -1,0 +1,1064 @@
+nohup: ignoring input
+training sences: 30
+Sence 0 is loaded. scene01.mat
+Sence 1 is loaded. scene02.mat
+Sence 2 is loaded. scene03.mat
+Sence 3 is loaded. scene04.mat
+Sence 4 is loaded. scene05.mat
+Sence 5 is loaded. scene06.mat
+Sence 6 is loaded. scene07.mat
+Sence 7 is loaded. scene08.mat
+Sence 8 is loaded. scene09.mat
+Sence 9 is loaded. scene10.mat
+Sence 10 is loaded. scene11.mat
+Sence 11 is loaded. scene12.mat
+Sence 12 is loaded. scene13.mat
+Sence 13 is loaded. scene14.mat
+Sence 14 is loaded. scene15.mat
+Sence 15 is loaded. scene16.mat
+Sence 16 is loaded. scene17.mat
+Sence 17 is loaded. scene18.mat
+Sence 18 is loaded. scene19.mat
+Sence 19 is loaded. scene20.mat
+Sence 20 is loaded. scene21.mat
+Sence 21 is loaded. scene22.mat
+Sence 22 is loaded. scene23.mat
+Sence 23 is loaded. scene24.mat
+Sence 24 is loaded. scene25.mat
+Sence 25 is loaded. scene26.mat
+Sence 26 is loaded. scene27.mat
+Sence 27 is loaded. scene28.mat
+Sence 28 is loaded. scene29.mat
+Sence 29 is loaded. scene30.mat
+0 (256, 256, 28) 0.91325766 0.004317734
+1 (256, 256, 28) 0.6268645 0.0024493488
+2 (256, 256, 28) 0.7478274 0.0038342373
+3 (256, 256, 28) 0.8852826 0.0023525485
+4 (256, 256, 28) 0.90493804 0.0034019176
+5 (256, 256, 28) 1.0582489 0.000809521
+6 (256, 256, 28) 0.5335211 0.008445868
+7 (256, 256, 28) 1.0526695 0.0
+8 (256, 256, 28) 0.8439114 0.0029929152
+9 (256, 256, 28) 0.93364686 0.0029743377
+2024-05-25 20:59:43,830 - INFO: Learning rate:0.0004, batch_size:5.
+
+2024-05-25 21:10:25,056 - INFO: ===> Epoch 1 Complete: Avg. Loss: 0.010730 time: 641.23
+2024-05-25 21:10:25,951 - INFO: ===> Epoch 1: testing psnr = 20.76, ssim = 0.521, time: 0.58
+2024-05-25 21:21:03,797 - INFO: ===> Epoch 2 Complete: Avg. Loss: 0.006503 time: 637.84
+2024-05-25 21:21:04,141 - INFO: ===> Epoch 2: testing psnr = 22.48, ssim = 0.617, time: 0.03
+2024-05-25 21:31:40,711 - INFO: ===> Epoch 3 Complete: Avg. Loss: 0.004951 time: 636.57
+2024-05-25 21:31:41,051 - INFO: ===> Epoch 3: testing psnr = 23.02, ssim = 0.641, time: 0.03
+2024-05-25 21:44:37,185 - INFO: ===> Epoch 4 Complete: Avg. Loss: 0.004233 time: 776.13
+2024-05-25 21:44:37,533 - INFO: ===> Epoch 4: testing psnr = 23.53, ssim = 0.673, time: 0.03
+2024-05-25 21:55:40,301 - INFO: ===> Epoch 5 Complete: Avg. Loss: 0.003662 time: 662.77
+2024-05-25 21:55:40,639 - INFO: ===> Epoch 5: testing psnr = 23.90, ssim = 0.688, time: 0.03
+2024-05-25 22:06:15,413 - INFO: ===> Epoch 6 Complete: Avg. Loss: 0.003284 time: 634.77
+2024-05-25 22:06:15,754 - INFO: ===> Epoch 6: testing psnr = 24.05, ssim = 0.701, time: 0.03
+2024-05-25 22:16:53,491 - INFO: ===> Epoch 7 Complete: Avg. Loss: 0.002974 time: 637.73
+2024-05-25 22:16:53,834 - INFO: ===> Epoch 7: testing psnr = 24.20, ssim = 0.698, time: 0.03
+2024-05-25 22:27:35,058 - INFO: ===> Epoch 8 Complete: Avg. Loss: 0.002827 time: 641.22
+2024-05-25 22:27:35,406 - INFO: ===> Epoch 8: testing psnr = 24.60, ssim = 0.724, time: 0.03
+2024-05-25 22:38:17,376 - INFO: ===> Epoch 9 Complete: Avg. Loss: 0.002652 time: 641.97
+2024-05-25 22:38:17,718 - INFO: ===> Epoch 9: testing psnr = 24.64, ssim = 0.733, time: 0.03
+2024-05-25 22:48:58,936 - INFO: ===> Epoch 10 Complete: Avg. Loss: 0.002531 time: 641.22
+2024-05-25 22:48:59,279 - INFO: ===> Epoch 10: testing psnr = 25.01, ssim = 0.743, time: 0.03
+2024-05-25 22:59:38,131 - INFO: ===> Epoch 11 Complete: Avg. Loss: 0.002441 time: 638.85
+2024-05-25 22:59:38,478 - INFO: ===> Epoch 11: testing psnr = 25.26, ssim = 0.751, time: 0.03
+2024-05-25 23:10:18,186 - INFO: ===> Epoch 12 Complete: Avg. Loss: 0.002292 time: 639.71
+2024-05-25 23:10:18,539 - INFO: ===> Epoch 12: testing psnr = 25.18, ssim = 0.743, time: 0.03
+2024-05-25 23:20:57,339 - INFO: ===> Epoch 13 Complete: Avg. Loss: 0.002162 time: 638.80
+2024-05-25 23:20:57,684 - INFO: ===> Epoch 13: testing psnr = 25.66, ssim = 0.762, time: 0.03
+2024-05-25 23:31:40,316 - INFO: ===> Epoch 14 Complete: Avg. Loss: 0.002054 time: 642.63
+2024-05-25 23:31:40,670 - INFO: ===> Epoch 14: testing psnr = 25.68, ssim = 0.757, time: 0.04
+2024-05-25 23:42:56,886 - INFO: ===> Epoch 15 Complete: Avg. Loss: 0.002122 time: 676.21
+2024-05-25 23:42:57,233 - INFO: ===> Epoch 15: testing psnr = 25.87, ssim = 0.771, time: 0.03
+2024-05-25 23:53:36,957 - INFO: ===> Epoch 16 Complete: Avg. Loss: 0.001904 time: 639.72
+2024-05-25 23:53:37,303 - INFO: ===> Epoch 16: testing psnr = 26.09, ssim = 0.779, time: 0.03
+2024-05-26 00:04:16,284 - INFO: ===> Epoch 17 Complete: Avg. Loss: 0.001856 time: 638.98
+2024-05-26 00:04:16,630 - INFO: ===> Epoch 17: testing psnr = 26.26, ssim = 0.782, time: 0.03
+2024-05-26 00:14:54,559 - INFO: ===> Epoch 18 Complete: Avg. Loss: 0.001746 time: 637.93
+2024-05-26 00:14:54,903 - INFO: ===> Epoch 18: testing psnr = 26.15, ssim = 0.778, time: 0.03
+2024-05-26 00:25:35,858 - INFO: ===> Epoch 19 Complete: Avg. Loss: 0.001774 time: 640.95
+2024-05-26 00:25:36,206 - INFO: ===> Epoch 19: testing psnr = 26.42, ssim = 0.792, time: 0.03
+2024-05-26 00:36:18,037 - INFO: ===> Epoch 20 Complete: Avg. Loss: 0.001672 time: 641.83
+2024-05-26 00:36:18,381 - INFO: ===> Epoch 20: testing psnr = 26.48, ssim = 0.794, time: 0.03
+2024-05-26 00:46:56,312 - INFO: ===> Epoch 21 Complete: Avg. Loss: 0.001679 time: 637.93
+2024-05-26 00:46:56,657 - INFO: ===> Epoch 21: testing psnr = 26.15, ssim = 0.764, time: 0.03
+2024-05-26 00:57:50,619 - INFO: ===> Epoch 22 Complete: Avg. Loss: 0.001647 time: 653.96
+2024-05-26 00:57:50,967 - INFO: ===> Epoch 22: testing psnr = 26.40, ssim = 0.789, time: 0.03
+2024-05-26 01:08:34,170 - INFO: ===> Epoch 23 Complete: Avg. Loss: 0.001552 time: 643.20
+2024-05-26 01:08:34,519 - INFO: ===> Epoch 23: testing psnr = 26.28, ssim = 0.786, time: 0.03
+2024-05-26 01:19:15,229 - INFO: ===> Epoch 24 Complete: Avg. Loss: 0.001625 time: 640.71
+2024-05-26 01:19:15,570 - INFO: ===> Epoch 24: testing psnr = 26.66, ssim = 0.796, time: 0.03
+2024-05-26 01:29:56,620 - INFO: ===> Epoch 25 Complete: Avg. Loss: 0.001476 time: 641.05
+2024-05-26 01:29:56,965 - INFO: ===> Epoch 25: testing psnr = 26.66, ssim = 0.798, time: 0.03
+2024-05-26 01:40:36,598 - INFO: ===> Epoch 26 Complete: Avg. Loss: 0.001478 time: 639.63
+2024-05-26 01:40:36,944 - INFO: ===> Epoch 26: testing psnr = 25.60, ssim = 0.757, time: 0.03
+2024-05-26 01:51:27,765 - INFO: ===> Epoch 27 Complete: Avg. Loss: 0.001452 time: 650.82
+2024-05-26 01:51:28,110 - INFO: ===> Epoch 27: testing psnr = 26.80, ssim = 0.794, time: 0.03
+2024-05-26 02:02:06,492 - INFO: ===> Epoch 28 Complete: Avg. Loss: 0.001493 time: 638.38
+2024-05-26 02:02:06,838 - INFO: ===> Epoch 28: testing psnr = 26.80, ssim = 0.804, time: 0.03
+2024-05-26 02:12:49,373 - INFO: ===> Epoch 29 Complete: Avg. Loss: 0.001364 time: 642.53
+2024-05-26 02:12:49,730 - INFO: ===> Epoch 29: testing psnr = 26.82, ssim = 0.806, time: 0.04
+2024-05-26 02:23:55,062 - INFO: ===> Epoch 30 Complete: Avg. Loss: 0.001401 time: 665.33
+2024-05-26 02:23:55,413 - INFO: ===> Epoch 30: testing psnr = 26.91, ssim = 0.810, time: 0.03
+2024-05-26 02:34:59,305 - INFO: ===> Epoch 31 Complete: Avg. Loss: 0.001343 time: 663.89
+2024-05-26 02:34:59,665 - INFO: ===> Epoch 31: testing psnr = 26.88, ssim = 0.809, time: 0.04
+2024-05-26 02:46:17,111 - INFO: ===> Epoch 32 Complete: Avg. Loss: 0.001319 time: 677.44
+2024-05-26 02:46:17,472 - INFO: ===> Epoch 32: testing psnr = 26.93, ssim = 0.806, time: 0.04
+2024-05-26 02:57:03,049 - INFO: ===> Epoch 33 Complete: Avg. Loss: 0.001338 time: 645.57
+2024-05-26 02:57:03,396 - INFO: ===> Epoch 33: testing psnr = 26.80, ssim = 0.790, time: 0.03
+2024-05-26 03:07:40,201 - INFO: ===> Epoch 34 Complete: Avg. Loss: 0.001313 time: 636.80
+2024-05-26 03:07:40,547 - INFO: ===> Epoch 34: testing psnr = 25.38, ssim = 0.751, time: 0.03
+2024-05-26 03:18:20,487 - INFO: ===> Epoch 35 Complete: Avg. Loss: 0.001288 time: 639.94
+2024-05-26 03:18:20,830 - INFO: ===> Epoch 35: testing psnr = 26.95, ssim = 0.805, time: 0.03
+2024-05-26 03:29:01,398 - INFO: ===> Epoch 36 Complete: Avg. Loss: 0.001295 time: 640.57
+2024-05-26 03:29:01,745 - INFO: ===> Epoch 36: testing psnr = 26.96, ssim = 0.812, time: 0.03
+2024-05-26 03:39:41,656 - INFO: ===> Epoch 37 Complete: Avg. Loss: 0.001257 time: 639.91
+2024-05-26 03:39:42,002 - INFO: ===> Epoch 37: testing psnr = 27.10, ssim = 0.815, time: 0.03
+2024-05-26 03:39:42,708 - INFO: Checkpoint saved to ./model/2024_05_25_20_59_43/model_epoch_37.pth
+2024-05-26 03:50:41,428 - INFO: ===> Epoch 38 Complete: Avg. Loss: 0.001343 time: 658.72
+2024-05-26 03:50:41,772 - INFO: ===> Epoch 38: testing psnr = 27.02, ssim = 0.814, time: 0.03
+2024-05-26 04:01:27,263 - INFO: ===> Epoch 39 Complete: Avg. Loss: 0.001222 time: 645.49
+2024-05-26 04:01:27,606 - INFO: ===> Epoch 39: testing psnr = 27.06, ssim = 0.812, time: 0.03
+2024-05-26 04:12:17,173 - INFO: ===> Epoch 40 Complete: Avg. Loss: 0.001285 time: 649.57
+2024-05-26 04:12:17,518 - INFO: ===> Epoch 40: testing psnr = 27.29, ssim = 0.818, time: 0.03
+2024-05-26 04:12:18,211 - INFO: Checkpoint saved to ./model/2024_05_25_20_59_43/model_epoch_40.pth
+2024-05-26 04:23:18,129 - INFO: ===> Epoch 41 Complete: Avg. Loss: 0.001177 time: 659.92
+2024-05-26 04:23:18,488 - INFO: ===> Epoch 41: testing psnr = 26.85, ssim = 0.809, time: 0.04
+2024-05-26 04:34:11,064 - INFO: ===> Epoch 42 Complete: Avg. Loss: 0.001174 time: 652.57
+2024-05-26 04:34:11,409 - INFO: ===> Epoch 42: testing psnr = 27.24, ssim = 0.817, time: 0.03
+2024-05-26 04:44:55,188 - INFO: ===> Epoch 43 Complete: Avg. Loss: 0.001228 time: 643.78
+2024-05-26 04:44:55,530 - INFO: ===> Epoch 43: testing psnr = 27.13, ssim = 0.817, time: 0.03
+2024-05-26 04:55:41,267 - INFO: ===> Epoch 44 Complete: Avg. Loss: 0.001254 time: 645.74
+2024-05-26 04:55:41,625 - INFO: ===> Epoch 44: testing psnr = 23.52, ssim = 0.703, time: 0.04
+2024-05-26 05:06:30,169 - INFO: ===> Epoch 45 Complete: Avg. Loss: 0.001411 time: 648.54
+2024-05-26 05:06:30,513 - INFO: ===> Epoch 45: testing psnr = 27.27, ssim = 0.822, time: 0.03
+2024-05-26 05:17:09,309 - INFO: ===> Epoch 46 Complete: Avg. Loss: 0.001140 time: 638.79
+2024-05-26 05:17:09,654 - INFO: ===> Epoch 46: testing psnr = 27.07, ssim = 0.817, time: 0.03
+2024-05-26 05:28:12,723 - INFO: ===> Epoch 47 Complete: Avg. Loss: 0.001165 time: 663.07
+2024-05-26 05:28:13,066 - INFO: ===> Epoch 47: testing psnr = 27.28, ssim = 0.817, time: 0.03
+2024-05-26 05:38:52,412 - INFO: ===> Epoch 48 Complete: Avg. Loss: 0.001182 time: 639.34
+2024-05-26 05:38:52,757 - INFO: ===> Epoch 48: testing psnr = 27.12, ssim = 0.817, time: 0.03
+2024-05-26 05:49:41,076 - INFO: ===> Epoch 49 Complete: Avg. Loss: 0.001163 time: 648.32
+2024-05-26 05:49:41,418 - INFO: ===> Epoch 49: testing psnr = 27.26, ssim = 0.828, time: 0.03
+2024-05-26 06:00:24,145 - INFO: ===> Epoch 50 Complete: Avg. Loss: 0.001141 time: 642.73
+2024-05-26 06:00:24,490 - INFO: ===> Epoch 50: testing psnr = 27.13, ssim = 0.811, time: 0.03
+2024-05-26 06:11:06,080 - INFO: ===> Epoch 51 Complete: Avg. Loss: 0.001138 time: 641.59
+2024-05-26 06:11:06,426 - INFO: ===> Epoch 51: testing psnr = 27.22, ssim = 0.826, time: 0.03
+2024-05-26 06:21:48,379 - INFO: ===> Epoch 52 Complete: Avg. Loss: 0.001132 time: 641.95
+2024-05-26 06:21:48,724 - INFO: ===> Epoch 52: testing psnr = 27.29, ssim = 0.826, time: 0.03
+2024-05-26 06:21:49,411 - INFO: Checkpoint saved to ./model/2024_05_25_20_59_43/model_epoch_52.pth
+2024-05-26 06:32:29,818 - INFO: ===> Epoch 53 Complete: Avg. Loss: 0.001078 time: 640.41
+2024-05-26 06:32:30,164 - INFO: ===> Epoch 53: testing psnr = 27.37, ssim = 0.829, time: 0.03
+2024-05-26 06:32:30,870 - INFO: Checkpoint saved to ./model/2024_05_25_20_59_43/model_epoch_53.pth
+2024-05-26 06:43:18,267 - INFO: ===> Epoch 54 Complete: Avg. Loss: 0.001066 time: 647.40
+2024-05-26 06:43:18,610 - INFO: ===> Epoch 54: testing psnr = 27.24, ssim = 0.829, time: 0.03
+2024-05-26 06:54:25,571 - INFO: ===> Epoch 55 Complete: Avg. Loss: 0.001128 time: 666.96
+2024-05-26 06:54:25,911 - INFO: ===> Epoch 55: testing psnr = 27.20, ssim = 0.828, time: 0.03
+2024-05-26 07:05:04,813 - INFO: ===> Epoch 56 Complete: Avg. Loss: 0.001077 time: 638.90
+2024-05-26 07:05:05,152 - INFO: ===> Epoch 56: testing psnr = 27.12, ssim = 0.821, time: 0.03
+2024-05-26 07:15:47,282 - INFO: ===> Epoch 57 Complete: Avg. Loss: 0.001070 time: 642.13
+2024-05-26 07:15:47,622 - INFO: ===> Epoch 57: testing psnr = 27.40, ssim = 0.830, time: 0.03
+2024-05-26 07:15:48,315 - INFO: Checkpoint saved to ./model/2024_05_25_20_59_43/model_epoch_57.pth
+2024-05-26 07:26:31,122 - INFO: ===> Epoch 58 Complete: Avg. Loss: 0.001088 time: 642.81
+2024-05-26 07:26:31,475 - INFO: ===> Epoch 58: testing psnr = 27.25, ssim = 0.825, time: 0.04
+2024-05-26 07:37:27,332 - INFO: ===> Epoch 59 Complete: Avg. Loss: 0.001084 time: 655.85
+2024-05-26 07:37:27,671 - INFO: ===> Epoch 59: testing psnr = 27.24, ssim = 0.830, time: 0.03
+2024-05-26 07:48:09,262 - INFO: ===> Epoch 60 Complete: Avg. Loss: 0.001069 time: 641.59
+2024-05-26 07:48:09,601 - INFO: ===> Epoch 60: testing psnr = 27.27, ssim = 0.826, time: 0.03
+2024-05-26 07:58:49,645 - INFO: ===> Epoch 61 Complete: Avg. Loss: 0.001057 time: 640.04
+2024-05-26 07:58:49,986 - INFO: ===> Epoch 61: testing psnr = 26.99, ssim = 0.820, time: 0.03
+2024-05-26 08:09:27,499 - INFO: ===> Epoch 62 Complete: Avg. Loss: 0.001061 time: 637.51
+2024-05-26 08:09:27,841 - INFO: ===> Epoch 62: testing psnr = 27.27, ssim = 0.826, time: 0.03
+2024-05-26 08:20:06,713 - INFO: ===> Epoch 63 Complete: Avg. Loss: 0.001048 time: 638.87
+2024-05-26 08:20:07,055 - INFO: ===> Epoch 63: testing psnr = 26.76, ssim = 0.799, time: 0.03
+2024-05-26 08:30:44,498 - INFO: ===> Epoch 64 Complete: Avg. Loss: 0.001067 time: 637.44
+2024-05-26 08:30:44,837 - INFO: ===> Epoch 64: testing psnr = 27.39, ssim = 0.829, time: 0.03
+2024-05-26 08:41:28,343 - INFO: ===> Epoch 65 Complete: Avg. Loss: 0.001016 time: 643.50
+2024-05-26 08:41:28,683 - INFO: ===> Epoch 65: testing psnr = 27.38, ssim = 0.830, time: 0.03
+2024-05-26 08:52:07,631 - INFO: ===> Epoch 66 Complete: Avg. Loss: 0.001039 time: 638.95
+2024-05-26 08:52:07,971 - INFO: ===> Epoch 66: testing psnr = 27.16, ssim = 0.830, time: 0.03
+2024-05-26 09:02:46,279 - INFO: ===> Epoch 67 Complete: Avg. Loss: 0.001039 time: 638.31
+2024-05-26 09:02:46,619 - INFO: ===> Epoch 67: testing psnr = 27.36, ssim = 0.830, time: 0.03
+2024-05-26 09:13:24,344 - INFO: ===> Epoch 68 Complete: Avg. Loss: 0.001028 time: 637.72
+2024-05-26 09:13:24,683 - INFO: ===> Epoch 68: testing psnr = 27.10, ssim = 0.822, time: 0.03
+2024-05-26 09:24:02,466 - INFO: ===> Epoch 69 Complete: Avg. Loss: 0.001023 time: 637.78
+2024-05-26 09:24:02,809 - INFO: ===> Epoch 69: testing psnr = 27.13, ssim = 0.830, time: 0.03
+2024-05-26 09:34:45,460 - INFO: ===> Epoch 70 Complete: Avg. Loss: 0.000997 time: 642.65
+2024-05-26 09:34:45,801 - INFO: ===> Epoch 70: testing psnr = 27.34, ssim = 0.833, time: 0.03
+2024-05-26 09:45:23,864 - INFO: ===> Epoch 71 Complete: Avg. Loss: 0.001011 time: 638.06
+2024-05-26 09:45:24,205 - INFO: ===> Epoch 71: testing psnr = 27.46, ssim = 0.837, time: 0.03
+2024-05-26 09:45:24,853 - INFO: Checkpoint saved to ./model/2024_05_25_20_59_43/model_epoch_71.pth
+2024-05-26 09:56:04,524 - INFO: ===> Epoch 72 Complete: Avg. Loss: 0.001025 time: 639.67
+2024-05-26 09:56:04,863 - INFO: ===> Epoch 72: testing psnr = 27.11, ssim = 0.825, time: 0.03
+2024-05-26 10:06:45,624 - INFO: ===> Epoch 73 Complete: Avg. Loss: 0.000999 time: 640.76
+2024-05-26 10:06:45,963 - INFO: ===> Epoch 73: testing psnr = 27.49, ssim = 0.837, time: 0.03
+2024-05-26 10:06:46,650 - INFO: Checkpoint saved to ./model/2024_05_25_20_59_43/model_epoch_73.pth
+2024-05-26 10:17:24,091 - INFO: ===> Epoch 74 Complete: Avg. Loss: 0.001002 time: 637.44
+2024-05-26 10:17:24,427 - INFO: ===> Epoch 74: testing psnr = 27.33, ssim = 0.834, time: 0.03
+2024-05-26 10:28:02,269 - INFO: ===> Epoch 75 Complete: Avg. Loss: 0.000974 time: 637.84
+2024-05-26 10:28:02,610 - INFO: ===> Epoch 75: testing psnr = 27.33, ssim = 0.834, time: 0.03
+2024-05-26 10:38:37,311 - INFO: ===> Epoch 76 Complete: Avg. Loss: 0.000987 time: 634.70
+2024-05-26 10:38:37,646 - INFO: ===> Epoch 76: testing psnr = 27.46, ssim = 0.837, time: 0.03
+2024-05-26 10:49:12,604 - INFO: ===> Epoch 77 Complete: Avg. Loss: 0.000948 time: 634.96
+2024-05-26 10:49:12,941 - INFO: ===> Epoch 77: testing psnr = 27.37, ssim = 0.832, time: 0.03
+2024-05-26 10:59:55,324 - INFO: ===> Epoch 78 Complete: Avg. Loss: 0.000970 time: 642.38
+2024-05-26 10:59:55,662 - INFO: ===> Epoch 78: testing psnr = 27.29, ssim = 0.824, time: 0.03
+2024-05-26 11:10:39,062 - INFO: ===> Epoch 79 Complete: Avg. Loss: 0.000992 time: 643.40
+2024-05-26 11:10:39,403 - INFO: ===> Epoch 79: testing psnr = 27.37, ssim = 0.836, time: 0.03
+2024-05-26 11:21:17,641 - INFO: ===> Epoch 80 Complete: Avg. Loss: 0.000960 time: 638.24
+2024-05-26 11:21:17,980 - INFO: ===> Epoch 80: testing psnr = 27.46, ssim = 0.837, time: 0.03
+2024-05-26 11:32:10,266 - INFO: ===> Epoch 81 Complete: Avg. Loss: 0.000977 time: 652.28
+2024-05-26 11:32:10,607 - INFO: ===> Epoch 81: testing psnr = 27.21, ssim = 0.835, time: 0.03
+2024-05-26 11:43:26,326 - INFO: ===> Epoch 82 Complete: Avg. Loss: 0.001075 time: 675.72
+2024-05-26 11:43:26,665 - INFO: ===> Epoch 82: testing psnr = 27.55, ssim = 0.841, time: 0.03
+2024-05-26 11:43:27,345 - INFO: Checkpoint saved to ./model/2024_05_25_20_59_43/model_epoch_82.pth
+2024-05-26 11:54:16,645 - INFO: ===> Epoch 83 Complete: Avg. Loss: 0.000930 time: 649.30
+2024-05-26 11:54:16,986 - INFO: ===> Epoch 83: testing psnr = 27.44, ssim = 0.839, time: 0.03
+2024-05-26 12:04:56,673 - INFO: ===> Epoch 84 Complete: Avg. Loss: 0.000934 time: 639.69
+2024-05-26 12:04:57,011 - INFO: ===> Epoch 84: testing psnr = 27.48, ssim = 0.838, time: 0.03
+2024-05-26 12:15:37,632 - INFO: ===> Epoch 85 Complete: Avg. Loss: 0.000944 time: 640.62
+2024-05-26 12:15:37,971 - INFO: ===> Epoch 85: testing psnr = 27.26, ssim = 0.837, time: 0.03
+2024-05-26 12:26:25,684 - INFO: ===> Epoch 86 Complete: Avg. Loss: 0.000942 time: 647.71
+2024-05-26 12:26:26,020 - INFO: ===> Epoch 86: testing psnr = 27.60, ssim = 0.839, time: 0.03
+2024-05-26 12:26:26,691 - INFO: Checkpoint saved to ./model/2024_05_25_20_59_43/model_epoch_86.pth
+2024-05-26 12:37:08,809 - INFO: ===> Epoch 87 Complete: Avg. Loss: 0.000949 time: 642.12
+2024-05-26 12:37:09,149 - INFO: ===> Epoch 87: testing psnr = 27.17, ssim = 0.835, time: 0.03
+2024-05-26 12:47:56,120 - INFO: ===> Epoch 88 Complete: Avg. Loss: 0.000954 time: 646.97
+2024-05-26 12:47:56,460 - INFO: ===> Epoch 88: testing psnr = 27.30, ssim = 0.834, time: 0.03
+2024-05-26 12:58:43,549 - INFO: ===> Epoch 89 Complete: Avg. Loss: 0.000938 time: 647.09
+2024-05-26 12:58:43,889 - INFO: ===> Epoch 89: testing psnr = 27.54, ssim = 0.839, time: 0.03
+2024-05-26 13:09:25,769 - INFO: ===> Epoch 90 Complete: Avg. Loss: 0.000927 time: 641.88
+2024-05-26 13:09:26,110 - INFO: ===> Epoch 90: testing psnr = 27.41, ssim = 0.829, time: 0.03
+2024-05-26 13:20:09,770 - INFO: ===> Epoch 91 Complete: Avg. Loss: 0.000930 time: 643.66
+2024-05-26 13:20:10,107 - INFO: ===> Epoch 91: testing psnr = 27.53, ssim = 0.832, time: 0.03
+2024-05-26 13:30:50,409 - INFO: ===> Epoch 92 Complete: Avg. Loss: 0.000894 time: 640.30
+2024-05-26 13:30:50,747 - INFO: ===> Epoch 92: testing psnr = 27.48, ssim = 0.840, time: 0.03
+2024-05-26 13:41:29,763 - INFO: ===> Epoch 93 Complete: Avg. Loss: 0.000926 time: 639.01
+2024-05-26 13:41:30,098 - INFO: ===> Epoch 93: testing psnr = 27.04, ssim = 0.826, time: 0.03
+2024-05-26 13:52:07,941 - INFO: ===> Epoch 94 Complete: Avg. Loss: 0.000929 time: 637.84
+2024-05-26 13:52:08,280 - INFO: ===> Epoch 94: testing psnr = 27.51, ssim = 0.840, time: 0.03
+2024-05-26 14:02:48,598 - INFO: ===> Epoch 95 Complete: Avg. Loss: 0.000935 time: 640.32
+2024-05-26 14:02:48,937 - INFO: ===> Epoch 95: testing psnr = 27.62, ssim = 0.840, time: 0.03
+2024-05-26 14:02:49,595 - INFO: Checkpoint saved to ./model/2024_05_25_20_59_43/model_epoch_95.pth
+2024-05-26 14:13:42,094 - INFO: ===> Epoch 96 Complete: Avg. Loss: 0.000964 time: 652.50
+2024-05-26 14:13:42,446 - INFO: ===> Epoch 96: testing psnr = 27.16, ssim = 0.833, time: 0.04
+2024-05-26 14:24:53,168 - INFO: ===> Epoch 97 Complete: Avg. Loss: 0.000882 time: 670.72
+2024-05-26 14:24:53,518 - INFO: ===> Epoch 97: testing psnr = 27.43, ssim = 0.835, time: 0.04
+2024-05-26 14:36:05,706 - INFO: ===> Epoch 98 Complete: Avg. Loss: 0.000912 time: 672.19
+2024-05-26 14:36:06,046 - INFO: ===> Epoch 98: testing psnr = 27.48, ssim = 0.841, time: 0.03
+2024-05-26 14:47:06,827 - INFO: ===> Epoch 99 Complete: Avg. Loss: 0.000914 time: 660.78
+2024-05-26 14:47:07,167 - INFO: ===> Epoch 99: testing psnr = 27.06, ssim = 0.829, time: 0.03
+2024-05-26 14:57:49,484 - INFO: ===> Epoch 100 Complete: Avg. Loss: 0.000925 time: 642.32
+2024-05-26 14:57:49,825 - INFO: ===> Epoch 100: testing psnr = 27.46, ssim = 0.841, time: 0.03
+2024-05-26 15:08:26,253 - INFO: ===> Epoch 101 Complete: Avg. Loss: 0.000917 time: 636.43
+2024-05-26 15:08:26,592 - INFO: ===> Epoch 101: testing psnr = 27.33, ssim = 0.826, time: 0.03
+2024-05-26 15:19:03,213 - INFO: ===> Epoch 102 Complete: Avg. Loss: 0.000883 time: 636.62
+2024-05-26 15:19:03,553 - INFO: ===> Epoch 102: testing psnr = 26.78, ssim = 0.825, time: 0.03
+2024-05-26 15:29:44,512 - INFO: ===> Epoch 103 Complete: Avg. Loss: 0.000885 time: 640.96
+2024-05-26 15:29:44,853 - INFO: ===> Epoch 103: testing psnr = 27.28, ssim = 0.831, time: 0.03
+2024-05-26 15:40:24,571 - INFO: ===> Epoch 104 Complete: Avg. Loss: 0.000917 time: 639.72
+2024-05-26 15:40:24,914 - INFO: ===> Epoch 104: testing psnr = 27.41, ssim = 0.838, time: 0.03
+2024-05-26 15:51:04,050 - INFO: ===> Epoch 105 Complete: Avg. Loss: 0.000905 time: 639.13
+2024-05-26 15:51:04,392 - INFO: ===> Epoch 105: testing psnr = 27.46, ssim = 0.839, time: 0.03
+2024-05-26 16:01:43,732 - INFO: ===> Epoch 106 Complete: Avg. Loss: 0.000881 time: 639.34
+2024-05-26 16:01:44,075 - INFO: ===> Epoch 106: testing psnr = 26.63, ssim = 0.803, time: 0.03
+2024-05-26 16:12:24,780 - INFO: ===> Epoch 107 Complete: Avg. Loss: 0.000893 time: 640.70
+2024-05-26 16:12:25,126 - INFO: ===> Epoch 107: testing psnr = 27.47, ssim = 0.841, time: 0.03
+2024-05-26 16:23:04,192 - INFO: ===> Epoch 108 Complete: Avg. Loss: 0.000880 time: 639.06
+2024-05-26 16:23:04,532 - INFO: ===> Epoch 108: testing psnr = 27.51, ssim = 0.840, time: 0.03
+2024-05-26 16:33:46,381 - INFO: ===> Epoch 109 Complete: Avg. Loss: 0.000932 time: 641.85
+2024-05-26 16:33:46,722 - INFO: ===> Epoch 109: testing psnr = 27.71, ssim = 0.841, time: 0.03
+2024-05-26 16:33:47,411 - INFO: Checkpoint saved to ./model/2024_05_25_20_59_43/model_epoch_109.pth
+2024-05-26 16:44:27,164 - INFO: ===> Epoch 110 Complete: Avg. Loss: 0.000876 time: 639.75
+2024-05-26 16:44:27,503 - INFO: ===> Epoch 110: testing psnr = 27.52, ssim = 0.835, time: 0.03
+2024-05-26 16:55:05,628 - INFO: ===> Epoch 111 Complete: Avg. Loss: 0.000858 time: 638.12
+2024-05-26 16:55:05,967 - INFO: ===> Epoch 111: testing psnr = 27.59, ssim = 0.835, time: 0.03
+2024-05-26 17:05:44,094 - INFO: ===> Epoch 112 Complete: Avg. Loss: 0.000890 time: 638.12
+2024-05-26 17:05:44,437 - INFO: ===> Epoch 112: testing psnr = 27.53, ssim = 0.843, time: 0.03
+2024-05-26 17:16:24,484 - INFO: ===> Epoch 113 Complete: Avg. Loss: 0.000849 time: 640.05
+2024-05-26 17:16:24,826 - INFO: ===> Epoch 113: testing psnr = 27.48, ssim = 0.838, time: 0.03
+2024-05-26 17:27:05,870 - INFO: ===> Epoch 114 Complete: Avg. Loss: 0.000893 time: 641.04
+2024-05-26 17:27:06,210 - INFO: ===> Epoch 114: testing psnr = 27.54, ssim = 0.845, time: 0.03
+2024-05-26 17:37:45,476 - INFO: ===> Epoch 115 Complete: Avg. Loss: 0.000869 time: 639.26
+2024-05-26 17:37:45,818 - INFO: ===> Epoch 115: testing psnr = 27.39, ssim = 0.846, time: 0.03
+2024-05-26 17:48:25,316 - INFO: ===> Epoch 116 Complete: Avg. Loss: 0.000882 time: 639.50
+2024-05-26 17:48:25,656 - INFO: ===> Epoch 116: testing psnr = 27.44, ssim = 0.832, time: 0.03
+2024-05-26 17:59:05,055 - INFO: ===> Epoch 117 Complete: Avg. Loss: 0.000865 time: 639.40
+2024-05-26 17:59:05,394 - INFO: ===> Epoch 117: testing psnr = 27.46, ssim = 0.846, time: 0.03
+2024-05-26 18:09:46,844 - INFO: ===> Epoch 118 Complete: Avg. Loss: 0.000865 time: 641.45
+2024-05-26 18:09:47,183 - INFO: ===> Epoch 118: testing psnr = 27.56, ssim = 0.844, time: 0.03
+2024-05-26 18:20:31,561 - INFO: ===> Epoch 119 Complete: Avg. Loss: 0.000867 time: 644.38
+2024-05-26 18:20:31,903 - INFO: ===> Epoch 119: testing psnr = 27.45, ssim = 0.838, time: 0.03
+2024-05-26 18:31:13,510 - INFO: ===> Epoch 120 Complete: Avg. Loss: 0.000865 time: 641.60
+2024-05-26 18:31:13,855 - INFO: ===> Epoch 120: testing psnr = 27.54, ssim = 0.843, time: 0.03
+2024-05-26 18:41:54,117 - INFO: ===> Epoch 121 Complete: Avg. Loss: 0.000853 time: 640.26
+2024-05-26 18:41:54,458 - INFO: ===> Epoch 121: testing psnr = 27.48, ssim = 0.840, time: 0.03
+2024-05-26 18:52:49,787 - INFO: ===> Epoch 122 Complete: Avg. Loss: 0.000842 time: 655.33
+2024-05-26 18:52:50,142 - INFO: ===> Epoch 122: testing psnr = 27.38, ssim = 0.835, time: 0.04
+2024-05-26 19:04:07,987 - INFO: ===> Epoch 123 Complete: Avg. Loss: 0.000859 time: 677.84
+2024-05-26 19:04:08,341 - INFO: ===> Epoch 123: testing psnr = 27.60, ssim = 0.839, time: 0.04
+2024-05-26 19:15:01,053 - INFO: ===> Epoch 124 Complete: Avg. Loss: 0.000915 time: 652.71
+2024-05-26 19:15:01,398 - INFO: ===> Epoch 124: testing psnr = 27.51, ssim = 0.838, time: 0.03
+2024-05-26 19:26:09,991 - INFO: ===> Epoch 125 Complete: Avg. Loss: 0.000867 time: 668.59
+2024-05-26 19:26:10,346 - INFO: ===> Epoch 125: testing psnr = 27.69, ssim = 0.842, time: 0.04
+2024-05-26 19:37:27,105 - INFO: ===> Epoch 126 Complete: Avg. Loss: 0.000833 time: 676.76
+2024-05-26 19:37:27,460 - INFO: ===> Epoch 126: testing psnr = 27.42, ssim = 0.844, time: 0.04
+2024-05-26 19:48:37,381 - INFO: ===> Epoch 127 Complete: Avg. Loss: 0.000840 time: 669.92
+2024-05-26 19:48:37,722 - INFO: ===> Epoch 127: testing psnr = 27.57, ssim = 0.845, time: 0.03
+2024-05-26 19:59:20,207 - INFO: ===> Epoch 128 Complete: Avg. Loss: 0.000863 time: 642.48
+2024-05-26 19:59:20,549 - INFO: ===> Epoch 128: testing psnr = 27.71, ssim = 0.845, time: 0.03
+2024-05-26 20:10:01,406 - INFO: ===> Epoch 129 Complete: Avg. Loss: 0.000835 time: 640.86
+2024-05-26 20:10:01,751 - INFO: ===> Epoch 129: testing psnr = 26.64, ssim = 0.805, time: 0.03
+2024-05-26 20:20:45,298 - INFO: ===> Epoch 130 Complete: Avg. Loss: 0.000827 time: 643.55
+2024-05-26 20:20:45,643 - INFO: ===> Epoch 130: testing psnr = 27.54, ssim = 0.846, time: 0.03
+2024-05-26 20:31:29,958 - INFO: ===> Epoch 131 Complete: Avg. Loss: 0.000829 time: 644.31
+2024-05-26 20:31:30,301 - INFO: ===> Epoch 131: testing psnr = 27.26, ssim = 0.837, time: 0.03
+2024-05-26 20:42:14,478 - INFO: ===> Epoch 132 Complete: Avg. Loss: 0.000831 time: 644.18
+2024-05-26 20:42:14,823 - INFO: ===> Epoch 132: testing psnr = 27.10, ssim = 0.821, time: 0.03
+2024-05-26 20:53:00,449 - INFO: ===> Epoch 133 Complete: Avg. Loss: 0.000822 time: 645.62
+2024-05-26 20:53:00,809 - INFO: ===> Epoch 133: testing psnr = 27.61, ssim = 0.848, time: 0.04
+2024-05-26 21:03:49,877 - INFO: ===> Epoch 134 Complete: Avg. Loss: 0.000815 time: 649.07
+2024-05-26 21:03:50,219 - INFO: ===> Epoch 134: testing psnr = 27.55, ssim = 0.847, time: 0.03
+2024-05-26 21:14:34,215 - INFO: ===> Epoch 135 Complete: Avg. Loss: 0.000814 time: 643.99
+2024-05-26 21:14:34,558 - INFO: ===> Epoch 135: testing psnr = 27.72, ssim = 0.844, time: 0.03
+2024-05-26 21:14:35,223 - INFO: Checkpoint saved to ./model/2024_05_25_20_59_43/model_epoch_135.pth
+2024-05-26 21:25:15,697 - INFO: ===> Epoch 136 Complete: Avg. Loss: 0.000957 time: 640.47
+2024-05-26 21:25:16,040 - INFO: ===> Epoch 136: testing psnr = 27.63, ssim = 0.846, time: 0.03
+2024-05-26 21:35:56,959 - INFO: ===> Epoch 137 Complete: Avg. Loss: 0.000816 time: 640.92
+2024-05-26 21:35:57,302 - INFO: ===> Epoch 137: testing psnr = 27.76, ssim = 0.850, time: 0.03
+2024-05-26 21:35:57,999 - INFO: Checkpoint saved to ./model/2024_05_25_20_59_43/model_epoch_137.pth
+2024-05-26 21:46:39,633 - INFO: ===> Epoch 138 Complete: Avg. Loss: 0.000824 time: 641.63
+2024-05-26 21:46:39,974 - INFO: ===> Epoch 138: testing psnr = 27.61, ssim = 0.839, time: 0.03
+2024-05-26 21:57:24,253 - INFO: ===> Epoch 139 Complete: Avg. Loss: 0.000822 time: 644.28
+2024-05-26 21:57:24,592 - INFO: ===> Epoch 139: testing psnr = 27.43, ssim = 0.846, time: 0.03
+2024-05-26 22:08:17,309 - INFO: ===> Epoch 140 Complete: Avg. Loss: 0.000795 time: 652.72
+2024-05-26 22:08:17,650 - INFO: ===> Epoch 140: testing psnr = 27.51, ssim = 0.846, time: 0.03
+2024-05-26 22:18:54,687 - INFO: ===> Epoch 141 Complete: Avg. Loss: 0.000806 time: 637.04
+2024-05-26 22:18:55,029 - INFO: ===> Epoch 141: testing psnr = 27.60, ssim = 0.845, time: 0.03
+2024-05-26 22:29:32,458 - INFO: ===> Epoch 142 Complete: Avg. Loss: 0.000823 time: 637.43
+2024-05-26 22:29:32,796 - INFO: ===> Epoch 142: testing psnr = 27.67, ssim = 0.847, time: 0.03
+2024-05-26 22:40:11,528 - INFO: ===> Epoch 143 Complete: Avg. Loss: 0.000804 time: 638.73
+2024-05-26 22:40:11,871 - INFO: ===> Epoch 143: testing psnr = 27.55, ssim = 0.841, time: 0.03
+2024-05-26 22:50:50,139 - INFO: ===> Epoch 144 Complete: Avg. Loss: 0.000824 time: 638.27
+2024-05-26 22:50:50,482 - INFO: ===> Epoch 144: testing psnr = 27.53, ssim = 0.845, time: 0.03
+2024-05-26 23:01:27,208 - INFO: ===> Epoch 145 Complete: Avg. Loss: 0.000847 time: 636.72
+2024-05-26 23:01:27,548 - INFO: ===> Epoch 145: testing psnr = 27.89, ssim = 0.847, time: 0.03
+2024-05-26 23:01:28,243 - INFO: Checkpoint saved to ./model/2024_05_25_20_59_43/model_epoch_145.pth
+2024-05-26 23:12:09,372 - INFO: ===> Epoch 146 Complete: Avg. Loss: 0.000818 time: 641.13
+2024-05-26 23:12:09,713 - INFO: ===> Epoch 146: testing psnr = 27.60, ssim = 0.845, time: 0.03
+2024-05-26 23:23:04,136 - INFO: ===> Epoch 147 Complete: Avg. Loss: 0.000792 time: 654.42
+2024-05-26 23:23:04,489 - INFO: ===> Epoch 147: testing psnr = 27.64, ssim = 0.848, time: 0.04
+2024-05-26 23:33:51,313 - INFO: ===> Epoch 148 Complete: Avg. Loss: 0.000799 time: 646.82
+2024-05-26 23:33:51,653 - INFO: ===> Epoch 148: testing psnr = 27.66, ssim = 0.844, time: 0.03
+2024-05-26 23:44:31,176 - INFO: ===> Epoch 149 Complete: Avg. Loss: 0.000828 time: 639.52
+2024-05-26 23:44:31,517 - INFO: ===> Epoch 149: testing psnr = 27.76, ssim = 0.851, time: 0.03
+2024-05-26 23:55:07,493 - INFO: ===> Epoch 150 Complete: Avg. Loss: 0.000786 time: 635.97
+2024-05-26 23:55:07,835 - INFO: ===> Epoch 150: testing psnr = 27.68, ssim = 0.851, time: 0.03
+2024-05-27 00:05:43,599 - INFO: ===> Epoch 151 Complete: Avg. Loss: 0.001143 time: 635.76
+2024-05-27 00:05:43,940 - INFO: ===> Epoch 151: testing psnr = 27.61, ssim = 0.843, time: 0.03
+2024-05-27 00:16:19,612 - INFO: ===> Epoch 152 Complete: Avg. Loss: 0.000787 time: 635.67
+2024-05-27 00:16:19,950 - INFO: ===> Epoch 152: testing psnr = 27.43, ssim = 0.835, time: 0.03
+2024-05-27 00:26:59,104 - INFO: ===> Epoch 153 Complete: Avg. Loss: 0.000800 time: 639.15
+2024-05-27 00:26:59,450 - INFO: ===> Epoch 153: testing psnr = 27.61, ssim = 0.846, time: 0.03
+2024-05-27 00:37:34,150 - INFO: ===> Epoch 154 Complete: Avg. Loss: 0.000792 time: 634.70
+2024-05-27 00:37:34,495 - INFO: ===> Epoch 154: testing psnr = 27.59, ssim = 0.845, time: 0.03
+2024-05-27 00:48:09,298 - INFO: ===> Epoch 155 Complete: Avg. Loss: 0.000810 time: 634.80
+2024-05-27 00:48:09,642 - INFO: ===> Epoch 155: testing psnr = 27.62, ssim = 0.844, time: 0.03
+2024-05-27 00:58:47,723 - INFO: ===> Epoch 156 Complete: Avg. Loss: 0.000779 time: 638.08
+2024-05-27 00:58:48,068 - INFO: ===> Epoch 156: testing psnr = 27.64, ssim = 0.849, time: 0.03
+2024-05-27 01:09:30,126 - INFO: ===> Epoch 157 Complete: Avg. Loss: 0.000797 time: 642.06
+2024-05-27 01:09:30,473 - INFO: ===> Epoch 157: testing psnr = 27.78, ssim = 0.849, time: 0.03
+2024-05-27 01:20:09,387 - INFO: ===> Epoch 158 Complete: Avg. Loss: 0.000795 time: 638.91
+2024-05-27 01:20:09,733 - INFO: ===> Epoch 158: testing psnr = 27.60, ssim = 0.841, time: 0.03
+2024-05-27 01:30:50,867 - INFO: ===> Epoch 159 Complete: Avg. Loss: 0.000783 time: 641.13
+2024-05-27 01:30:51,214 - INFO: ===> Epoch 159: testing psnr = 27.68, ssim = 0.845, time: 0.03
+2024-05-27 01:41:34,691 - INFO: ===> Epoch 160 Complete: Avg. Loss: 0.000796 time: 643.48
+2024-05-27 01:41:35,038 - INFO: ===> Epoch 160: testing psnr = 27.60, ssim = 0.847, time: 0.03
+2024-05-27 01:52:13,796 - INFO: ===> Epoch 161 Complete: Avg. Loss: 0.000778 time: 638.76
+2024-05-27 01:52:14,139 - INFO: ===> Epoch 161: testing psnr = 27.35, ssim = 0.843, time: 0.03
+2024-05-27 02:02:48,245 - INFO: ===> Epoch 162 Complete: Avg. Loss: 0.000799 time: 634.10
+2024-05-27 02:02:48,588 - INFO: ===> Epoch 162: testing psnr = 27.68, ssim = 0.848, time: 0.03
+2024-05-27 02:13:22,288 - INFO: ===> Epoch 163 Complete: Avg. Loss: 0.000760 time: 633.70
+2024-05-27 02:13:22,631 - INFO: ===> Epoch 163: testing psnr = 27.66, ssim = 0.845, time: 0.03
+2024-05-27 02:23:58,854 - INFO: ===> Epoch 164 Complete: Avg. Loss: 0.000801 time: 636.22
+2024-05-27 02:23:59,199 - INFO: ===> Epoch 164: testing psnr = 27.72, ssim = 0.853, time: 0.03
+2024-05-27 02:34:36,627 - INFO: ===> Epoch 165 Complete: Avg. Loss: 0.000785 time: 637.43
+2024-05-27 02:34:36,970 - INFO: ===> Epoch 165: testing psnr = 26.81, ssim = 0.831, time: 0.03
+2024-05-27 02:45:10,245 - INFO: ===> Epoch 166 Complete: Avg. Loss: 0.000787 time: 633.27
+2024-05-27 02:45:10,589 - INFO: ===> Epoch 166: testing psnr = 27.45, ssim = 0.849, time: 0.03
+2024-05-27 02:55:42,813 - INFO: ===> Epoch 167 Complete: Avg. Loss: 0.000765 time: 632.22
+2024-05-27 02:55:43,157 - INFO: ===> Epoch 167: testing psnr = 27.79, ssim = 0.852, time: 0.03
+2024-05-27 03:06:17,809 - INFO: ===> Epoch 168 Complete: Avg. Loss: 0.000811 time: 634.65
+2024-05-27 03:06:18,153 - INFO: ===> Epoch 168: testing psnr = 27.48, ssim = 0.844, time: 0.03
+2024-05-27 03:16:58,737 - INFO: ===> Epoch 169 Complete: Avg. Loss: 0.000761 time: 640.58
+2024-05-27 03:16:59,081 - INFO: ===> Epoch 169: testing psnr = 27.52, ssim = 0.842, time: 0.03
+2024-05-27 03:27:35,621 - INFO: ===> Epoch 170 Complete: Avg. Loss: 0.000796 time: 636.54
+2024-05-27 03:27:35,968 - INFO: ===> Epoch 170: testing psnr = 27.87, ssim = 0.849, time: 0.03
+2024-05-27 03:38:11,408 - INFO: ===> Epoch 171 Complete: Avg. Loss: 0.000783 time: 635.44
+2024-05-27 03:38:11,754 - INFO: ===> Epoch 171: testing psnr = 27.86, ssim = 0.853, time: 0.03
+2024-05-27 03:48:45,996 - INFO: ===> Epoch 172 Complete: Avg. Loss: 0.000756 time: 634.24
+2024-05-27 03:48:46,342 - INFO: ===> Epoch 172: testing psnr = 27.50, ssim = 0.843, time: 0.03
+2024-05-27 03:59:19,227 - INFO: ===> Epoch 173 Complete: Avg. Loss: 0.000766 time: 632.88
+2024-05-27 03:59:19,572 - INFO: ===> Epoch 173: testing psnr = 27.77, ssim = 0.854, time: 0.03
+2024-05-27 04:09:52,468 - INFO: ===> Epoch 174 Complete: Avg. Loss: 0.000763 time: 632.89
+2024-05-27 04:09:52,813 - INFO: ===> Epoch 174: testing psnr = 27.81, ssim = 0.853, time: 0.03
+2024-05-27 04:20:25,495 - INFO: ===> Epoch 175 Complete: Avg. Loss: 0.000746 time: 632.68
+2024-05-27 04:20:25,840 - INFO: ===> Epoch 175: testing psnr = 27.70, ssim = 0.852, time: 0.03
+2024-05-27 04:30:59,645 - INFO: ===> Epoch 176 Complete: Avg. Loss: 0.000773 time: 633.80
+2024-05-27 04:30:59,988 - INFO: ===> Epoch 176: testing psnr = 27.73, ssim = 0.850, time: 0.03
+2024-05-27 04:41:33,382 - INFO: ===> Epoch 177 Complete: Avg. Loss: 0.000771 time: 633.39
+2024-05-27 04:41:33,725 - INFO: ===> Epoch 177: testing psnr = 27.73, ssim = 0.850, time: 0.03
+2024-05-27 04:52:07,049 - INFO: ===> Epoch 178 Complete: Avg. Loss: 0.000760 time: 633.32
+2024-05-27 04:52:07,399 - INFO: ===> Epoch 178: testing psnr = 27.79, ssim = 0.851, time: 0.03
+2024-05-27 05:02:42,462 - INFO: ===> Epoch 179 Complete: Avg. Loss: 0.000913 time: 635.06
+2024-05-27 05:02:42,813 - INFO: ===> Epoch 179: testing psnr = 27.59, ssim = 0.845, time: 0.03
+2024-05-27 05:13:18,062 - INFO: ===> Epoch 180 Complete: Avg. Loss: 0.000721 time: 635.25
+2024-05-27 05:13:18,408 - INFO: ===> Epoch 180: testing psnr = 27.87, ssim = 0.851, time: 0.03
+2024-05-27 05:23:51,802 - INFO: ===> Epoch 181 Complete: Avg. Loss: 0.000751 time: 633.39
+2024-05-27 05:23:52,151 - INFO: ===> Epoch 181: testing psnr = 27.80, ssim = 0.846, time: 0.03
+2024-05-27 05:34:25,585 - INFO: ===> Epoch 182 Complete: Avg. Loss: 0.000754 time: 633.43
+2024-05-27 05:34:25,931 - INFO: ===> Epoch 182: testing psnr = 27.81, ssim = 0.853, time: 0.03
+2024-05-27 05:44:59,781 - INFO: ===> Epoch 183 Complete: Avg. Loss: 0.000768 time: 633.85
+2024-05-27 05:45:00,129 - INFO: ===> Epoch 183: testing psnr = 27.65, ssim = 0.851, time: 0.03
+2024-05-27 05:55:33,702 - INFO: ===> Epoch 184 Complete: Avg. Loss: 0.000887 time: 633.57
+2024-05-27 05:55:34,046 - INFO: ===> Epoch 184: testing psnr = 27.90, ssim = 0.853, time: 0.03
+2024-05-27 05:55:34,758 - INFO: Checkpoint saved to ./model/2024_05_25_20_59_43/model_epoch_184.pth
+2024-05-27 06:06:07,245 - INFO: ===> Epoch 185 Complete: Avg. Loss: 0.000743 time: 632.49
+2024-05-27 06:06:07,594 - INFO: ===> Epoch 185: testing psnr = 27.94, ssim = 0.855, time: 0.03
+2024-05-27 06:06:08,293 - INFO: Checkpoint saved to ./model/2024_05_25_20_59_43/model_epoch_185.pth
+2024-05-27 06:16:43,781 - INFO: ===> Epoch 186 Complete: Avg. Loss: 0.000743 time: 635.49
+2024-05-27 06:16:44,128 - INFO: ===> Epoch 186: testing psnr = 27.72, ssim = 0.849, time: 0.03
+2024-05-27 06:27:18,443 - INFO: ===> Epoch 187 Complete: Avg. Loss: 0.000730 time: 634.31
+2024-05-27 06:27:18,790 - INFO: ===> Epoch 187: testing psnr = 27.71, ssim = 0.848, time: 0.03
+2024-05-27 06:38:21,667 - INFO: ===> Epoch 188 Complete: Avg. Loss: 0.000734 time: 662.88
+2024-05-27 06:38:22,025 - INFO: ===> Epoch 188: testing psnr = 27.76, ssim = 0.850, time: 0.04
+2024-05-27 06:49:29,448 - INFO: ===> Epoch 189 Complete: Avg. Loss: 0.000774 time: 667.42
+2024-05-27 06:49:29,810 - INFO: ===> Epoch 189: testing psnr = 27.92, ssim = 0.854, time: 0.04
+2024-05-27 07:00:39,391 - INFO: ===> Epoch 190 Complete: Avg. Loss: 0.000732 time: 669.58
+2024-05-27 07:00:39,750 - INFO: ===> Epoch 190: testing psnr = 27.53, ssim = 0.837, time: 0.04
+2024-05-27 07:11:48,459 - INFO: ===> Epoch 191 Complete: Avg. Loss: 0.000731 time: 668.71
+2024-05-27 07:11:48,818 - INFO: ===> Epoch 191: testing psnr = 27.74, ssim = 0.847, time: 0.04
+2024-05-27 07:22:56,055 - INFO: ===> Epoch 192 Complete: Avg. Loss: 0.000747 time: 667.24
+2024-05-27 07:22:56,415 - INFO: ===> Epoch 192: testing psnr = 27.83, ssim = 0.855, time: 0.04
+2024-05-27 07:34:05,584 - INFO: ===> Epoch 193 Complete: Avg. Loss: 0.000768 time: 669.17
+2024-05-27 07:34:05,945 - INFO: ===> Epoch 193: testing psnr = 27.70, ssim = 0.851, time: 0.04
+2024-05-27 07:45:14,054 - INFO: ===> Epoch 194 Complete: Avg. Loss: 0.000704 time: 668.11
+2024-05-27 07:45:14,415 - INFO: ===> Epoch 194: testing psnr = 27.56, ssim = 0.847, time: 0.04
+2024-05-27 07:56:22,025 - INFO: ===> Epoch 195 Complete: Avg. Loss: 0.000769 time: 667.61
+2024-05-27 07:56:22,386 - INFO: ===> Epoch 195: testing psnr = 27.58, ssim = 0.841, time: 0.04
+2024-05-27 08:07:33,431 - INFO: ===> Epoch 196 Complete: Avg. Loss: 0.000804 time: 671.04
+2024-05-27 08:07:33,789 - INFO: ===> Epoch 196: testing psnr = 27.75, ssim = 0.854, time: 0.04
+2024-05-27 08:18:48,177 - INFO: ===> Epoch 197 Complete: Avg. Loss: 0.000742 time: 674.39
+2024-05-27 08:18:48,536 - INFO: ===> Epoch 197: testing psnr = 27.76, ssim = 0.849, time: 0.04
+2024-05-27 08:29:36,284 - INFO: ===> Epoch 198 Complete: Avg. Loss: 0.000743 time: 647.75
+2024-05-27 08:29:36,632 - INFO: ===> Epoch 198: testing psnr = 27.89, ssim = 0.855, time: 0.03
+2024-05-27 08:40:11,621 - INFO: ===> Epoch 199 Complete: Avg. Loss: 0.000763 time: 634.99
+2024-05-27 08:40:11,965 - INFO: ===> Epoch 199: testing psnr = 27.63, ssim = 0.853, time: 0.03
+2024-05-27 08:50:46,167 - INFO: ===> Epoch 200 Complete: Avg. Loss: 0.000729 time: 634.20
+2024-05-27 08:50:46,511 - INFO: ===> Epoch 200: testing psnr = 27.54, ssim = 0.848, time: 0.03
+2024-05-27 09:01:20,100 - INFO: ===> Epoch 201 Complete: Avg. Loss: 0.000742 time: 633.59
+2024-05-27 09:01:20,444 - INFO: ===> Epoch 201: testing psnr = 27.70, ssim = 0.847, time: 0.03
+2024-05-27 09:11:54,946 - INFO: ===> Epoch 202 Complete: Avg. Loss: 0.000724 time: 634.50
+2024-05-27 09:11:55,291 - INFO: ===> Epoch 202: testing psnr = 27.66, ssim = 0.843, time: 0.03
+2024-05-27 09:22:28,721 - INFO: ===> Epoch 203 Complete: Avg. Loss: 0.000739 time: 633.43
+2024-05-27 09:22:29,065 - INFO: ===> Epoch 203: testing psnr = 27.82, ssim = 0.851, time: 0.03
+2024-05-27 09:33:02,886 - INFO: ===> Epoch 204 Complete: Avg. Loss: 0.000749 time: 633.82
+2024-05-27 09:33:03,231 - INFO: ===> Epoch 204: testing psnr = 27.68, ssim = 0.851, time: 0.03
+2024-05-27 09:43:36,788 - INFO: ===> Epoch 205 Complete: Avg. Loss: 0.000710 time: 633.56
+2024-05-27 09:43:37,131 - INFO: ===> Epoch 205: testing psnr = 27.63, ssim = 0.846, time: 0.03
+2024-05-27 09:54:10,482 - INFO: ===> Epoch 206 Complete: Avg. Loss: 0.000735 time: 633.35
+2024-05-27 09:54:10,827 - INFO: ===> Epoch 206: testing psnr = 27.76, ssim = 0.852, time: 0.03
+2024-05-27 10:04:43,289 - INFO: ===> Epoch 207 Complete: Avg. Loss: 0.000744 time: 632.46
+2024-05-27 10:04:43,631 - INFO: ===> Epoch 207: testing psnr = 27.61, ssim = 0.846, time: 0.03
+2024-05-27 10:15:15,322 - INFO: ===> Epoch 208 Complete: Avg. Loss: 0.000816 time: 631.69
+2024-05-27 10:15:15,665 - INFO: ===> Epoch 208: testing psnr = 27.76, ssim = 0.854, time: 0.03
+2024-05-27 10:25:45,762 - INFO: ===> Epoch 209 Complete: Avg. Loss: 0.000729 time: 630.10
+2024-05-27 10:25:46,106 - INFO: ===> Epoch 209: testing psnr = 27.78, ssim = 0.849, time: 0.03
+2024-05-27 10:36:18,420 - INFO: ===> Epoch 210 Complete: Avg. Loss: 0.000703 time: 632.31
+2024-05-27 10:36:18,764 - INFO: ===> Epoch 210: testing psnr = 27.82, ssim = 0.850, time: 0.03
+2024-05-27 10:46:52,429 - INFO: ===> Epoch 211 Complete: Avg. Loss: 0.000732 time: 633.66
+2024-05-27 10:46:52,772 - INFO: ===> Epoch 211: testing psnr = 27.81, ssim = 0.849, time: 0.03
+2024-05-27 10:57:26,611 - INFO: ===> Epoch 212 Complete: Avg. Loss: 0.000728 time: 633.84
+2024-05-27 10:57:26,956 - INFO: ===> Epoch 212: testing psnr = 27.71, ssim = 0.839, time: 0.03
+2024-05-27 11:08:14,077 - INFO: ===> Epoch 213 Complete: Avg. Loss: 0.000719 time: 647.12
+2024-05-27 11:08:14,422 - INFO: ===> Epoch 213: testing psnr = 27.54, ssim = 0.851, time: 0.03
+2024-05-27 11:19:20,977 - INFO: ===> Epoch 214 Complete: Avg. Loss: 0.000762 time: 666.55
+2024-05-27 11:19:21,323 - INFO: ===> Epoch 214: testing psnr = 27.72, ssim = 0.852, time: 0.03
+2024-05-27 11:30:27,564 - INFO: ===> Epoch 215 Complete: Avg. Loss: 0.000713 time: 666.24
+2024-05-27 11:30:27,909 - INFO: ===> Epoch 215: testing psnr = 27.81, ssim = 0.850, time: 0.03
+2024-05-27 11:41:02,301 - INFO: ===> Epoch 216 Complete: Avg. Loss: 0.000690 time: 634.39
+2024-05-27 11:41:02,649 - INFO: ===> Epoch 216: testing psnr = 27.85, ssim = 0.854, time: 0.03
+2024-05-27 11:51:37,545 - INFO: ===> Epoch 217 Complete: Avg. Loss: 0.000733 time: 634.89
+2024-05-27 11:51:37,891 - INFO: ===> Epoch 217: testing psnr = 27.70, ssim = 0.856, time: 0.03
+2024-05-27 12:02:37,228 - INFO: ===> Epoch 218 Complete: Avg. Loss: 0.000755 time: 659.34
+2024-05-27 12:02:37,587 - INFO: ===> Epoch 218: testing psnr = 27.63, ssim = 0.850, time: 0.04
+2024-05-27 12:13:38,783 - INFO: ===> Epoch 219 Complete: Avg. Loss: 0.000703 time: 661.19
+2024-05-27 12:13:39,131 - INFO: ===> Epoch 219: testing psnr = 27.42, ssim = 0.853, time: 0.03
+2024-05-27 12:24:15,452 - INFO: ===> Epoch 220 Complete: Avg. Loss: 0.000716 time: 636.32
+2024-05-27 12:24:15,797 - INFO: ===> Epoch 220: testing psnr = 27.31, ssim = 0.847, time: 0.03
+2024-05-27 12:34:53,314 - INFO: ===> Epoch 221 Complete: Avg. Loss: 0.000723 time: 637.51
+2024-05-27 12:34:53,659 - INFO: ===> Epoch 221: testing psnr = 27.64, ssim = 0.848, time: 0.03
+2024-05-27 12:45:30,507 - INFO: ===> Epoch 222 Complete: Avg. Loss: 0.000722 time: 636.85
+2024-05-27 12:45:30,853 - INFO: ===> Epoch 222: testing psnr = 27.73, ssim = 0.851, time: 0.03
+2024-05-27 12:56:06,950 - INFO: ===> Epoch 223 Complete: Avg. Loss: 0.000736 time: 636.09
+2024-05-27 12:56:07,295 - INFO: ===> Epoch 223: testing psnr = 27.43, ssim = 0.852, time: 0.03
+2024-05-27 13:06:42,087 - INFO: ===> Epoch 224 Complete: Avg. Loss: 0.000767 time: 634.79
+2024-05-27 13:06:42,434 - INFO: ===> Epoch 224: testing psnr = 27.64, ssim = 0.853, time: 0.03
+2024-05-27 13:17:40,184 - INFO: ===> Epoch 225 Complete: Avg. Loss: 0.000699 time: 657.75
+2024-05-27 13:17:40,531 - INFO: ===> Epoch 225: testing psnr = 27.67, ssim = 0.852, time: 0.03
+2024-05-27 13:28:46,215 - INFO: ===> Epoch 226 Complete: Avg. Loss: 0.000713 time: 665.68
+2024-05-27 13:28:46,555 - INFO: ===> Epoch 226: testing psnr = 27.84, ssim = 0.849, time: 0.03
+2024-05-27 13:39:50,830 - INFO: ===> Epoch 227 Complete: Avg. Loss: 0.000713 time: 664.27
+2024-05-27 13:39:51,172 - INFO: ===> Epoch 227: testing psnr = 27.58, ssim = 0.856, time: 0.03
+2024-05-27 13:50:57,061 - INFO: ===> Epoch 228 Complete: Avg. Loss: 0.000709 time: 665.89
+2024-05-27 13:50:57,402 - INFO: ===> Epoch 228: testing psnr = 27.41, ssim = 0.849, time: 0.03
+2024-05-27 14:02:05,350 - INFO: ===> Epoch 229 Complete: Avg. Loss: 0.000718 time: 667.95
+2024-05-27 14:02:05,693 - INFO: ===> Epoch 229: testing psnr = 27.58, ssim = 0.849, time: 0.03
+2024-05-27 14:13:14,736 - INFO: ===> Epoch 230 Complete: Avg. Loss: 0.000736 time: 669.04
+2024-05-27 14:13:15,078 - INFO: ===> Epoch 230: testing psnr = 27.78, ssim = 0.855, time: 0.03
+2024-05-27 14:24:24,069 - INFO: ===> Epoch 231 Complete: Avg. Loss: 0.000696 time: 668.99
+2024-05-27 14:24:24,411 - INFO: ===> Epoch 231: testing psnr = 27.54, ssim = 0.841, time: 0.03
+2024-05-27 14:35:31,311 - INFO: ===> Epoch 232 Complete: Avg. Loss: 0.000709 time: 666.90
+2024-05-27 14:35:31,653 - INFO: ===> Epoch 232: testing psnr = 27.20, ssim = 0.838, time: 0.03
+2024-05-27 14:46:39,705 - INFO: ===> Epoch 233 Complete: Avg. Loss: 0.000695 time: 668.05
+2024-05-27 14:46:40,050 - INFO: ===> Epoch 233: testing psnr = 27.92, ssim = 0.856, time: 0.03
+2024-05-27 14:57:53,143 - INFO: ===> Epoch 234 Complete: Avg. Loss: 0.000965 time: 673.09
+2024-05-27 14:57:53,487 - INFO: ===> Epoch 234: testing psnr = 27.82, ssim = 0.855, time: 0.03
+2024-05-27 15:09:07,968 - INFO: ===> Epoch 235 Complete: Avg. Loss: 0.000675 time: 674.48
+2024-05-27 15:09:08,316 - INFO: ===> Epoch 235: testing psnr = 27.79, ssim = 0.855, time: 0.03
+2024-05-27 15:19:51,203 - INFO: ===> Epoch 236 Complete: Avg. Loss: 0.000690 time: 642.89
+2024-05-27 15:19:51,547 - INFO: ===> Epoch 236: testing psnr = 27.87, ssim = 0.856, time: 0.03
+2024-05-27 15:30:30,628 - INFO: ===> Epoch 237 Complete: Avg. Loss: 0.000717 time: 639.08
+2024-05-27 15:30:30,975 - INFO: ===> Epoch 237: testing psnr = 25.96, ssim = 0.795, time: 0.03
+2024-05-27 15:41:07,805 - INFO: ===> Epoch 238 Complete: Avg. Loss: 0.000711 time: 636.83
+2024-05-27 15:41:08,147 - INFO: ===> Epoch 238: testing psnr = 27.16, ssim = 0.838, time: 0.03
+2024-05-27 15:51:42,894 - INFO: ===> Epoch 239 Complete: Avg. Loss: 0.000695 time: 634.75
+2024-05-27 15:51:43,237 - INFO: ===> Epoch 239: testing psnr = 27.72, ssim = 0.845, time: 0.03
+2024-05-27 16:02:27,944 - INFO: ===> Epoch 240 Complete: Avg. Loss: 0.000697 time: 644.71
+2024-05-27 16:02:28,288 - INFO: ===> Epoch 240: testing psnr = 27.71, ssim = 0.853, time: 0.04
+2024-05-27 16:13:11,697 - INFO: ===> Epoch 241 Complete: Avg. Loss: 0.000700 time: 643.41
+2024-05-27 16:13:12,039 - INFO: ===> Epoch 241: testing psnr = 27.54, ssim = 0.853, time: 0.03
+2024-05-27 16:24:04,844 - INFO: ===> Epoch 242 Complete: Avg. Loss: 0.000702 time: 652.80
+2024-05-27 16:24:05,195 - INFO: ===> Epoch 242: testing psnr = 27.85, ssim = 0.856, time: 0.03
+2024-05-27 16:34:59,490 - INFO: ===> Epoch 243 Complete: Avg. Loss: 0.000689 time: 654.29
+2024-05-27 16:34:59,843 - INFO: ===> Epoch 243: testing psnr = 27.65, ssim = 0.854, time: 0.03
+2024-05-27 16:45:53,043 - INFO: ===> Epoch 244 Complete: Avg. Loss: 0.000710 time: 653.20
+2024-05-27 16:45:53,389 - INFO: ===> Epoch 244: testing psnr = 27.38, ssim = 0.852, time: 0.03
+2024-05-27 16:56:56,694 - INFO: ===> Epoch 245 Complete: Avg. Loss: 0.000684 time: 663.30
+2024-05-27 16:56:57,037 - INFO: ===> Epoch 245: testing psnr = 27.51, ssim = 0.849, time: 0.03
+2024-05-27 17:07:57,597 - INFO: ===> Epoch 246 Complete: Avg. Loss: 0.000707 time: 660.56
+2024-05-27 17:07:57,942 - INFO: ===> Epoch 246: testing psnr = 27.72, ssim = 0.857, time: 0.03
+2024-05-27 17:18:49,136 - INFO: ===> Epoch 247 Complete: Avg. Loss: 0.000994 time: 651.19
+2024-05-27 17:18:49,486 - INFO: ===> Epoch 247: testing psnr = 27.80, ssim = 0.848, time: 0.03
+2024-05-27 17:29:53,514 - INFO: ===> Epoch 248 Complete: Avg. Loss: 0.000682 time: 664.03
+2024-05-27 17:29:53,877 - INFO: ===> Epoch 248: testing psnr = 27.56, ssim = 0.853, time: 0.04
+2024-05-27 17:40:55,574 - INFO: ===> Epoch 249 Complete: Avg. Loss: 0.000692 time: 661.70
+2024-05-27 17:40:55,919 - INFO: ===> Epoch 249: testing psnr = 27.89, ssim = 0.858, time: 0.03
+2024-05-27 17:51:57,070 - INFO: ===> Epoch 250 Complete: Avg. Loss: 0.000708 time: 661.15
+2024-05-27 17:51:57,427 - INFO: ===> Epoch 250: testing psnr = 27.67, ssim = 0.857, time: 0.04
+2024-05-27 18:02:55,905 - INFO: ===> Epoch 251 Complete: Avg. Loss: 0.000681 time: 658.48
+2024-05-27 18:02:56,252 - INFO: ===> Epoch 251: testing psnr = 27.67, ssim = 0.853, time: 0.03
+2024-05-27 18:14:04,139 - INFO: ===> Epoch 252 Complete: Avg. Loss: 0.000686 time: 667.89
+2024-05-27 18:14:04,504 - INFO: ===> Epoch 252: testing psnr = 27.68, ssim = 0.851, time: 0.04
+2024-05-27 18:25:01,340 - INFO: ===> Epoch 253 Complete: Avg. Loss: 0.000707 time: 656.83
+2024-05-27 18:25:01,685 - INFO: ===> Epoch 253: testing psnr = 27.70, ssim = 0.848, time: 0.03
+2024-05-27 18:36:02,821 - INFO: ===> Epoch 254 Complete: Avg. Loss: 0.000707 time: 661.13
+2024-05-27 18:36:03,190 - INFO: ===> Epoch 254: testing psnr = 27.51, ssim = 0.850, time: 0.03
+2024-05-27 18:47:10,895 - INFO: ===> Epoch 255 Complete: Avg. Loss: 0.000691 time: 667.70
+2024-05-27 18:47:11,325 - INFO: ===> Epoch 255: testing psnr = 27.65, ssim = 0.835, time: 0.03
+2024-05-27 18:58:12,544 - INFO: ===> Epoch 256 Complete: Avg. Loss: 0.000702 time: 661.22
+2024-05-27 18:58:12,903 - INFO: ===> Epoch 256: testing psnr = 27.68, ssim = 0.852, time: 0.03
+2024-05-27 19:09:14,344 - INFO: ===> Epoch 257 Complete: Avg. Loss: 0.000686 time: 661.44
+2024-05-27 19:09:14,694 - INFO: ===> Epoch 257: testing psnr = 27.89, ssim = 0.857, time: 0.03
+2024-05-27 19:20:14,475 - INFO: ===> Epoch 258 Complete: Avg. Loss: 0.000665 time: 659.78
+2024-05-27 19:20:14,841 - INFO: ===> Epoch 258: testing psnr = 27.62, ssim = 0.851, time: 0.04
+2024-05-27 19:31:21,305 - INFO: ===> Epoch 259 Complete: Avg. Loss: 0.000717 time: 666.46
+2024-05-27 19:31:21,666 - INFO: ===> Epoch 259: testing psnr = 27.59, ssim = 0.855, time: 0.03
+2024-05-27 19:42:26,118 - INFO: ===> Epoch 260 Complete: Avg. Loss: 0.000682 time: 664.45
+2024-05-27 19:42:26,480 - INFO: ===> Epoch 260: testing psnr = 27.79, ssim = 0.856, time: 0.03
+2024-05-27 19:53:31,065 - INFO: ===> Epoch 261 Complete: Avg. Loss: 0.000691 time: 664.58
+2024-05-27 19:53:31,422 - INFO: ===> Epoch 261: testing psnr = 27.59, ssim = 0.854, time: 0.03
+2024-05-27 20:04:32,004 - INFO: ===> Epoch 262 Complete: Avg. Loss: 0.000681 time: 660.58
+2024-05-27 20:04:32,357 - INFO: ===> Epoch 262: testing psnr = 27.64, ssim = 0.847, time: 0.03
+2024-05-27 20:15:36,100 - INFO: ===> Epoch 263 Complete: Avg. Loss: 0.000673 time: 663.74
+2024-05-27 20:15:36,450 - INFO: ===> Epoch 263: testing psnr = 27.49, ssim = 0.851, time: 0.03
+2024-05-27 20:26:38,843 - INFO: ===> Epoch 264 Complete: Avg. Loss: 0.000748 time: 662.39
+2024-05-27 20:26:39,201 - INFO: ===> Epoch 264: testing psnr = 27.93, ssim = 0.859, time: 0.03
+2024-05-27 20:37:41,172 - INFO: ===> Epoch 265 Complete: Avg. Loss: 0.000652 time: 661.97
+2024-05-27 20:37:41,533 - INFO: ===> Epoch 265: testing psnr = 27.73, ssim = 0.848, time: 0.03
+2024-05-27 20:48:43,943 - INFO: ===> Epoch 266 Complete: Avg. Loss: 0.000671 time: 662.41
+2024-05-27 20:48:44,303 - INFO: ===> Epoch 266: testing psnr = 27.58, ssim = 0.857, time: 0.03
+2024-05-27 20:59:48,607 - INFO: ===> Epoch 267 Complete: Avg. Loss: 0.000697 time: 664.30
+2024-05-27 20:59:48,956 - INFO: ===> Epoch 267: testing psnr = 27.88, ssim = 0.860, time: 0.03
+2024-05-27 21:10:48,540 - INFO: ===> Epoch 268 Complete: Avg. Loss: 0.000920 time: 659.58
+2024-05-27 21:10:48,894 - INFO: ===> Epoch 268: testing psnr = 27.03, ssim = 0.826, time: 0.03
+2024-05-27 21:21:53,459 - INFO: ===> Epoch 269 Complete: Avg. Loss: 0.000705 time: 664.56
+2024-05-27 21:21:53,818 - INFO: ===> Epoch 269: testing psnr = 27.75, ssim = 0.857, time: 0.03
+2024-05-27 21:32:57,841 - INFO: ===> Epoch 270 Complete: Avg. Loss: 0.000651 time: 664.02
+2024-05-27 21:32:58,192 - INFO: ===> Epoch 270: testing psnr = 27.75, ssim = 0.857, time: 0.03
+2024-05-27 21:44:00,904 - INFO: ===> Epoch 271 Complete: Avg. Loss: 0.000665 time: 662.71
+2024-05-27 21:44:01,262 - INFO: ===> Epoch 271: testing psnr = 27.26, ssim = 0.837, time: 0.03
+2024-05-27 21:55:03,053 - INFO: ===> Epoch 272 Complete: Avg. Loss: 0.000678 time: 661.79
+2024-05-27 21:55:03,407 - INFO: ===> Epoch 272: testing psnr = 27.77, ssim = 0.857, time: 0.03
+2024-05-27 22:06:05,018 - INFO: ===> Epoch 273 Complete: Avg. Loss: 0.000688 time: 661.61
+2024-05-27 22:06:05,373 - INFO: ===> Epoch 273: testing psnr = 27.83, ssim = 0.852, time: 0.03
+2024-05-27 22:17:08,524 - INFO: ===> Epoch 274 Complete: Avg. Loss: 0.000688 time: 663.15
+2024-05-27 22:17:08,876 - INFO: ===> Epoch 274: testing psnr = 27.83, ssim = 0.857, time: 0.03
+2024-05-27 22:28:16,167 - INFO: ===> Epoch 275 Complete: Avg. Loss: 0.000658 time: 667.29
+2024-05-27 22:28:16,519 - INFO: ===> Epoch 275: testing psnr = 27.55, ssim = 0.836, time: 0.03
+2024-05-27 22:39:20,287 - INFO: ===> Epoch 276 Complete: Avg. Loss: 0.000701 time: 663.77
+2024-05-27 22:39:20,648 - INFO: ===> Epoch 276: testing psnr = 27.44, ssim = 0.856, time: 0.03
+2024-05-27 22:50:23,603 - INFO: ===> Epoch 277 Complete: Avg. Loss: 0.000691 time: 662.95
+2024-05-27 22:50:23,958 - INFO: ===> Epoch 277: testing psnr = 27.81, ssim = 0.851, time: 0.03
+2024-05-27 23:01:30,092 - INFO: ===> Epoch 278 Complete: Avg. Loss: 0.000682 time: 666.13
+2024-05-27 23:01:30,451 - INFO: ===> Epoch 278: testing psnr = 27.80, ssim = 0.849, time: 0.03
+2024-05-27 23:12:32,664 - INFO: ===> Epoch 279 Complete: Avg. Loss: 0.000660 time: 662.21
+2024-05-27 23:12:33,016 - INFO: ===> Epoch 279: testing psnr = 27.86, ssim = 0.858, time: 0.03
+2024-05-27 23:23:37,393 - INFO: ===> Epoch 280 Complete: Avg. Loss: 0.000682 time: 664.37
+2024-05-27 23:23:37,752 - INFO: ===> Epoch 280: testing psnr = 27.32, ssim = 0.848, time: 0.03
+2024-05-27 23:34:35,023 - INFO: ===> Epoch 281 Complete: Avg. Loss: 0.000676 time: 657.27
+2024-05-27 23:34:35,378 - INFO: ===> Epoch 281: testing psnr = 27.63, ssim = 0.847, time: 0.03
+2024-05-27 23:45:36,689 - INFO: ===> Epoch 282 Complete: Avg. Loss: 0.000851 time: 661.31
+2024-05-27 23:45:37,043 - INFO: ===> Epoch 282: testing psnr = 28.08, ssim = 0.860, time: 0.03
+2024-05-27 23:45:37,779 - INFO: Checkpoint saved to ./model/2024_05_25_20_59_43/model_epoch_282.pth
+2024-05-27 23:56:38,985 - INFO: ===> Epoch 283 Complete: Avg. Loss: 0.000660 time: 661.21
+2024-05-27 23:56:39,344 - INFO: ===> Epoch 283: testing psnr = 27.95, ssim = 0.854, time: 0.03
+2024-05-28 00:07:44,624 - INFO: ===> Epoch 284 Complete: Avg. Loss: 0.000652 time: 665.28
+2024-05-28 00:07:44,977 - INFO: ===> Epoch 284: testing psnr = 27.87, ssim = 0.859, time: 0.03
+2024-05-28 00:18:51,681 - INFO: ===> Epoch 285 Complete: Avg. Loss: 0.000879 time: 666.70
+2024-05-28 00:18:52,038 - INFO: ===> Epoch 285: testing psnr = 27.79, ssim = 0.855, time: 0.03
+2024-05-28 00:29:57,601 - INFO: ===> Epoch 286 Complete: Avg. Loss: 0.000642 time: 665.56
+2024-05-28 00:29:57,949 - INFO: ===> Epoch 286: testing psnr = 27.78, ssim = 0.859, time: 0.03
+2024-05-28 00:41:02,899 - INFO: ===> Epoch 287 Complete: Avg. Loss: 0.000673 time: 664.95
+2024-05-28 00:41:03,247 - INFO: ===> Epoch 287: testing psnr = 27.91, ssim = 0.859, time: 0.03
+2024-05-28 00:52:06,235 - INFO: ===> Epoch 288 Complete: Avg. Loss: 0.000688 time: 662.99
+2024-05-28 00:52:06,593 - INFO: ===> Epoch 288: testing psnr = 27.66, ssim = 0.841, time: 0.03
+2024-05-28 01:03:08,207 - INFO: ===> Epoch 289 Complete: Avg. Loss: 0.000651 time: 661.61
+2024-05-28 01:03:08,555 - INFO: ===> Epoch 289: testing psnr = 27.97, ssim = 0.863, time: 0.03
+2024-05-28 01:14:10,623 - INFO: ===> Epoch 290 Complete: Avg. Loss: 0.000672 time: 662.07
+2024-05-28 01:14:10,976 - INFO: ===> Epoch 290: testing psnr = 27.56, ssim = 0.849, time: 0.03
+2024-05-28 01:25:12,043 - INFO: ===> Epoch 291 Complete: Avg. Loss: 0.000671 time: 661.06
+2024-05-28 01:25:12,400 - INFO: ===> Epoch 291: testing psnr = 27.48, ssim = 0.850, time: 0.03
+2024-05-28 01:36:16,911 - INFO: ===> Epoch 292 Complete: Avg. Loss: 0.000653 time: 664.51
+2024-05-28 01:36:17,265 - INFO: ===> Epoch 292: testing psnr = 27.70, ssim = 0.857, time: 0.03
+2024-05-28 01:47:25,982 - INFO: ===> Epoch 293 Complete: Avg. Loss: 0.000726 time: 668.72
+2024-05-28 01:47:26,335 - INFO: ===> Epoch 293: testing psnr = 27.96, ssim = 0.858, time: 0.03
+2024-05-28 01:58:27,234 - INFO: ===> Epoch 294 Complete: Avg. Loss: 0.000659 time: 660.90
+2024-05-28 01:58:27,593 - INFO: ===> Epoch 294: testing psnr = 27.78, ssim = 0.856, time: 0.03
+2024-05-28 02:09:28,790 - INFO: ===> Epoch 295 Complete: Avg. Loss: 0.000653 time: 661.19
+2024-05-28 02:09:29,139 - INFO: ===> Epoch 295: testing psnr = 27.98, ssim = 0.860, time: 0.03
+2024-05-28 02:20:28,475 - INFO: ===> Epoch 296 Complete: Avg. Loss: 0.000716 time: 659.33
+2024-05-28 02:20:28,828 - INFO: ===> Epoch 296: testing psnr = 27.65, ssim = 0.858, time: 0.03
+2024-05-28 02:31:29,556 - INFO: ===> Epoch 297 Complete: Avg. Loss: 0.000661 time: 660.73
+2024-05-28 02:31:29,914 - INFO: ===> Epoch 297: testing psnr = 27.85, ssim = 0.856, time: 0.03
+2024-05-28 02:42:32,576 - INFO: ===> Epoch 298 Complete: Avg. Loss: 0.000662 time: 662.66
+2024-05-28 02:42:32,929 - INFO: ===> Epoch 298: testing psnr = 27.83, ssim = 0.858, time: 0.03
+2024-05-28 02:53:30,892 - INFO: ===> Epoch 299 Complete: Avg. Loss: 0.000669 time: 657.96
+2024-05-28 02:53:31,249 - INFO: ===> Epoch 299: testing psnr = 27.80, ssim = 0.859, time: 0.03
+2024-05-28 03:04:29,103 - INFO: ===> Epoch 300 Complete: Avg. Loss: 0.000665 time: 657.85
+2024-05-28 03:04:29,449 - INFO: ===> Epoch 300: testing psnr = 27.71, ssim = 0.860, time: 0.03
+2024-05-28 03:15:31,592 - INFO: ===> Epoch 301 Complete: Avg. Loss: 0.000668 time: 662.14
+2024-05-28 03:15:31,946 - INFO: ===> Epoch 301: testing psnr = 27.80, ssim = 0.853, time: 0.03
+2024-05-28 03:26:29,644 - INFO: ===> Epoch 302 Complete: Avg. Loss: 0.000665 time: 657.70
+2024-05-28 03:26:29,991 - INFO: ===> Epoch 302: testing psnr = 27.88, ssim = 0.860, time: 0.03
+2024-05-28 03:37:36,350 - INFO: ===> Epoch 303 Complete: Avg. Loss: 0.000700 time: 666.36
+2024-05-28 03:37:36,705 - INFO: ===> Epoch 303: testing psnr = 27.90, ssim = 0.859, time: 0.03
+2024-05-28 03:48:40,556 - INFO: ===> Epoch 304 Complete: Avg. Loss: 0.000647 time: 663.85
+2024-05-28 03:48:40,908 - INFO: ===> Epoch 304: testing psnr = 27.98, ssim = 0.857, time: 0.03
+2024-05-28 03:59:40,726 - INFO: ===> Epoch 305 Complete: Avg. Loss: 0.000686 time: 659.82
+2024-05-28 03:59:41,078 - INFO: ===> Epoch 305: testing psnr = 27.38, ssim = 0.851, time: 0.03
+2024-05-28 04:10:46,997 - INFO: ===> Epoch 306 Complete: Avg. Loss: 0.000662 time: 665.92
+2024-05-28 04:10:47,349 - INFO: ===> Epoch 306: testing psnr = 27.81, ssim = 0.861, time: 0.03
+2024-05-28 04:21:49,050 - INFO: ===> Epoch 307 Complete: Avg. Loss: 0.000662 time: 661.70
+2024-05-28 04:21:49,400 - INFO: ===> Epoch 307: testing psnr = 27.67, ssim = 0.857, time: 0.03
+2024-05-28 04:32:46,305 - INFO: ===> Epoch 308 Complete: Avg. Loss: 0.000690 time: 656.90
+2024-05-28 04:32:46,654 - INFO: ===> Epoch 308: testing psnr = 27.57, ssim = 0.856, time: 0.03
+2024-05-28 04:43:45,652 - INFO: ===> Epoch 309 Complete: Avg. Loss: 0.000709 time: 659.00
+2024-05-28 04:43:46,001 - INFO: ===> Epoch 309: testing psnr = 27.81, ssim = 0.857, time: 0.03
+2024-05-28 04:54:43,512 - INFO: ===> Epoch 310 Complete: Avg. Loss: 0.000630 time: 657.51
+2024-05-28 04:54:43,861 - INFO: ===> Epoch 310: testing psnr = 27.72, ssim = 0.857, time: 0.03
+2024-05-28 05:05:46,152 - INFO: ===> Epoch 311 Complete: Avg. Loss: 0.000641 time: 662.29
+2024-05-28 05:05:46,506 - INFO: ===> Epoch 311: testing psnr = 27.83, ssim = 0.860, time: 0.03
+2024-05-28 05:16:48,977 - INFO: ===> Epoch 312 Complete: Avg. Loss: 0.000667 time: 662.47
+2024-05-28 05:16:49,327 - INFO: ===> Epoch 312: testing psnr = 27.67, ssim = 0.858, time: 0.03
+2024-05-28 05:27:49,666 - INFO: ===> Epoch 313 Complete: Avg. Loss: 0.000678 time: 660.34
+2024-05-28 05:27:50,016 - INFO: ===> Epoch 313: testing psnr = 27.84, ssim = 0.856, time: 0.03
+2024-05-28 05:38:51,170 - INFO: ===> Epoch 314 Complete: Avg. Loss: 0.000670 time: 661.15
+2024-05-28 05:38:51,526 - INFO: ===> Epoch 314: testing psnr = 27.87, ssim = 0.860, time: 0.03
+2024-05-28 05:49:50,846 - INFO: ===> Epoch 315 Complete: Avg. Loss: 0.000650 time: 659.32
+2024-05-28 05:49:51,197 - INFO: ===> Epoch 315: testing psnr = 27.58, ssim = 0.857, time: 0.03
+2024-05-28 06:00:51,795 - INFO: ===> Epoch 316 Complete: Avg. Loss: 0.000656 time: 660.60
+2024-05-28 06:00:52,144 - INFO: ===> Epoch 316: testing psnr = 27.72, ssim = 0.859, time: 0.03
+2024-05-28 06:11:47,474 - INFO: ===> Epoch 317 Complete: Avg. Loss: 0.000648 time: 655.33
+2024-05-28 06:11:47,825 - INFO: ===> Epoch 317: testing psnr = 27.95, ssim = 0.858, time: 0.03
+2024-05-28 06:22:50,891 - INFO: ===> Epoch 318 Complete: Avg. Loss: 0.000697 time: 663.06
+2024-05-28 06:22:51,269 - INFO: ===> Epoch 318: testing psnr = 27.81, ssim = 0.858, time: 0.03
+2024-05-28 06:33:54,717 - INFO: ===> Epoch 319 Complete: Avg. Loss: 0.000652 time: 663.45
+2024-05-28 06:33:55,067 - INFO: ===> Epoch 319: testing psnr = 27.98, ssim = 0.860, time: 0.03
+2024-05-28 06:44:51,581 - INFO: ===> Epoch 320 Complete: Avg. Loss: 0.000646 time: 656.51
+2024-05-28 06:44:51,932 - INFO: ===> Epoch 320: testing psnr = 27.72, ssim = 0.842, time: 0.03
+2024-05-28 06:55:50,511 - INFO: ===> Epoch 321 Complete: Avg. Loss: 0.000657 time: 658.58
+2024-05-28 06:55:50,860 - INFO: ===> Epoch 321: testing psnr = 27.53, ssim = 0.851, time: 0.03
+2024-05-28 07:06:52,657 - INFO: ===> Epoch 322 Complete: Avg. Loss: 0.000642 time: 661.80
+2024-05-28 07:06:53,003 - INFO: ===> Epoch 322: testing psnr = 28.03, ssim = 0.863, time: 0.03
+2024-05-28 07:17:50,444 - INFO: ===> Epoch 323 Complete: Avg. Loss: 0.000677 time: 657.44
+2024-05-28 07:17:50,795 - INFO: ===> Epoch 323: testing psnr = 27.61, ssim = 0.855, time: 0.03
+2024-05-28 07:28:48,630 - INFO: ===> Epoch 324 Complete: Avg. Loss: 0.000635 time: 657.83
+2024-05-28 07:28:48,972 - INFO: ===> Epoch 324: testing psnr = 27.67, ssim = 0.857, time: 0.03
+2024-05-28 07:39:45,710 - INFO: ===> Epoch 325 Complete: Avg. Loss: 0.000639 time: 656.74
+2024-05-28 07:39:46,055 - INFO: ===> Epoch 325: testing psnr = 27.69, ssim = 0.857, time: 0.03
+2024-05-28 07:50:39,189 - INFO: ===> Epoch 326 Complete: Avg. Loss: 0.000675 time: 653.13
+2024-05-28 07:50:39,538 - INFO: ===> Epoch 326: testing psnr = 27.68, ssim = 0.861, time: 0.03
+2024-05-28 08:01:37,964 - INFO: ===> Epoch 327 Complete: Avg. Loss: 0.000652 time: 658.42
+2024-05-28 08:01:38,310 - INFO: ===> Epoch 327: testing psnr = 27.82, ssim = 0.857, time: 0.03
+2024-05-28 08:12:36,384 - INFO: ===> Epoch 328 Complete: Avg. Loss: 0.000650 time: 658.07
+2024-05-28 08:12:36,733 - INFO: ===> Epoch 328: testing psnr = 27.44, ssim = 0.845, time: 0.03
+2024-05-28 08:23:34,783 - INFO: ===> Epoch 329 Complete: Avg. Loss: 0.000674 time: 658.05
+2024-05-28 08:23:35,133 - INFO: ===> Epoch 329: testing psnr = 27.74, ssim = 0.857, time: 0.03
+2024-05-28 08:34:32,844 - INFO: ===> Epoch 330 Complete: Avg. Loss: 0.000675 time: 657.71
+2024-05-28 08:34:33,187 - INFO: ===> Epoch 330: testing psnr = 27.67, ssim = 0.847, time: 0.03
+2024-05-28 08:45:29,371 - INFO: ===> Epoch 331 Complete: Avg. Loss: 0.000657 time: 656.18
+2024-05-28 08:45:29,718 - INFO: ===> Epoch 331: testing psnr = 27.72, ssim = 0.856, time: 0.03
+2024-05-28 08:56:26,084 - INFO: ===> Epoch 332 Complete: Avg. Loss: 0.000668 time: 656.36
+2024-05-28 08:56:26,430 - INFO: ===> Epoch 332: testing psnr = 27.79, ssim = 0.859, time: 0.03
+2024-05-28 09:07:24,565 - INFO: ===> Epoch 333 Complete: Avg. Loss: 0.000647 time: 658.13
+2024-05-28 09:07:24,924 - INFO: ===> Epoch 333: testing psnr = 27.63, ssim = 0.854, time: 0.03
+2024-05-28 09:18:25,393 - INFO: ===> Epoch 334 Complete: Avg. Loss: 0.000645 time: 660.47
+2024-05-28 09:18:25,742 - INFO: ===> Epoch 334: testing psnr = 27.27, ssim = 0.847, time: 0.03
+2024-05-28 09:29:24,856 - INFO: ===> Epoch 335 Complete: Avg. Loss: 0.000645 time: 659.11
+2024-05-28 09:29:25,203 - INFO: ===> Epoch 335: testing psnr = 27.86, ssim = 0.858, time: 0.03
+2024-05-28 09:40:23,561 - INFO: ===> Epoch 336 Complete: Avg. Loss: 0.000659 time: 658.36
+2024-05-28 09:40:23,908 - INFO: ===> Epoch 336: testing psnr = 27.70, ssim = 0.856, time: 0.03
+2024-05-28 09:51:24,241 - INFO: ===> Epoch 337 Complete: Avg. Loss: 0.000630 time: 660.33
+2024-05-28 09:51:24,597 - INFO: ===> Epoch 337: testing psnr = 27.76, ssim = 0.861, time: 0.03
+2024-05-28 10:02:26,777 - INFO: ===> Epoch 338 Complete: Avg. Loss: 0.000658 time: 662.18
+2024-05-28 10:02:27,131 - INFO: ===> Epoch 338: testing psnr = 28.02, ssim = 0.862, time: 0.03
+2024-05-28 10:13:26,826 - INFO: ===> Epoch 339 Complete: Avg. Loss: 0.000646 time: 659.69
+2024-05-28 10:13:27,181 - INFO: ===> Epoch 339: testing psnr = 27.90, ssim = 0.862, time: 0.03
+2024-05-28 10:24:26,908 - INFO: ===> Epoch 340 Complete: Avg. Loss: 0.000647 time: 659.73
+2024-05-28 10:24:27,261 - INFO: ===> Epoch 340: testing psnr = 27.85, ssim = 0.854, time: 0.03
+2024-05-28 10:35:24,205 - INFO: ===> Epoch 341 Complete: Avg. Loss: 0.000642 time: 656.94
+2024-05-28 10:35:24,558 - INFO: ===> Epoch 341: testing psnr = 27.37, ssim = 0.850, time: 0.03
+2024-05-28 10:46:21,978 - INFO: ===> Epoch 342 Complete: Avg. Loss: 0.000623 time: 657.42
+2024-05-28 10:46:22,331 - INFO: ===> Epoch 342: testing psnr = 27.66, ssim = 0.859, time: 0.03
+2024-05-28 10:57:24,631 - INFO: ===> Epoch 343 Complete: Avg. Loss: 0.000751 time: 662.30
+2024-05-28 10:57:24,980 - INFO: ===> Epoch 343: testing psnr = 28.09, ssim = 0.862, time: 0.03
+2024-05-28 10:57:25,711 - INFO: Checkpoint saved to ./model/2024_05_25_20_59_43/model_epoch_343.pth
+2024-05-28 11:08:26,090 - INFO: ===> Epoch 344 Complete: Avg. Loss: 0.000624 time: 660.38
+2024-05-28 11:08:26,438 - INFO: ===> Epoch 344: testing psnr = 27.91, ssim = 0.862, time: 0.03
+2024-05-28 11:19:27,467 - INFO: ===> Epoch 345 Complete: Avg. Loss: 0.000636 time: 661.03
+2024-05-28 11:19:27,821 - INFO: ===> Epoch 345: testing psnr = 27.77, ssim = 0.860, time: 0.03
+2024-05-28 11:30:31,774 - INFO: ===> Epoch 346 Complete: Avg. Loss: 0.000664 time: 663.95
+2024-05-28 11:30:32,118 - INFO: ===> Epoch 346: testing psnr = 27.78, ssim = 0.856, time: 0.03
+2024-05-28 11:41:34,432 - INFO: ===> Epoch 347 Complete: Avg. Loss: 0.000644 time: 662.31
+2024-05-28 11:41:34,785 - INFO: ===> Epoch 347: testing psnr = 27.83, ssim = 0.860, time: 0.03
+2024-05-28 11:52:36,035 - INFO: ===> Epoch 348 Complete: Avg. Loss: 0.000636 time: 661.25
+2024-05-28 11:52:36,388 - INFO: ===> Epoch 348: testing psnr = 27.57, ssim = 0.848, time: 0.03
+2024-05-28 12:03:38,243 - INFO: ===> Epoch 349 Complete: Avg. Loss: 0.000650 time: 661.85
+2024-05-28 12:03:38,593 - INFO: ===> Epoch 349: testing psnr = 27.42, ssim = 0.846, time: 0.03
+2024-05-28 12:14:41,995 - INFO: ===> Epoch 350 Complete: Avg. Loss: 0.000632 time: 663.40
+2024-05-28 12:14:42,346 - INFO: ===> Epoch 350: testing psnr = 27.60, ssim = 0.858, time: 0.03
+2024-05-28 12:25:45,093 - INFO: ===> Epoch 351 Complete: Avg. Loss: 0.000650 time: 662.75
+2024-05-28 12:25:45,445 - INFO: ===> Epoch 351: testing psnr = 27.32, ssim = 0.847, time: 0.03
+2024-05-28 12:36:45,696 - INFO: ===> Epoch 352 Complete: Avg. Loss: 0.000634 time: 660.25
+2024-05-28 12:36:46,047 - INFO: ===> Epoch 352: testing psnr = 27.57, ssim = 0.852, time: 0.03
+2024-05-28 12:47:45,309 - INFO: ===> Epoch 353 Complete: Avg. Loss: 0.000694 time: 659.26
+2024-05-28 12:47:45,661 - INFO: ===> Epoch 353: testing psnr = 27.98, ssim = 0.858, time: 0.03
+2024-05-28 12:58:45,178 - INFO: ===> Epoch 354 Complete: Avg. Loss: 0.000652 time: 659.51
+2024-05-28 12:58:45,524 - INFO: ===> Epoch 354: testing psnr = 27.96, ssim = 0.847, time: 0.03
+2024-05-28 13:09:47,127 - INFO: ===> Epoch 355 Complete: Avg. Loss: 0.000616 time: 661.60
+2024-05-28 13:09:47,480 - INFO: ===> Epoch 355: testing psnr = 27.74, ssim = 0.861, time: 0.03
+2024-05-28 13:20:50,003 - INFO: ===> Epoch 356 Complete: Avg. Loss: 0.000649 time: 662.52
+2024-05-28 13:20:50,352 - INFO: ===> Epoch 356: testing psnr = 27.74, ssim = 0.858, time: 0.03
+2024-05-28 13:31:49,551 - INFO: ===> Epoch 357 Complete: Avg. Loss: 0.001029 time: 659.20
+2024-05-28 13:31:49,900 - INFO: ===> Epoch 357: testing psnr = 27.21, ssim = 0.822, time: 0.03
+2024-05-28 13:42:54,190 - INFO: ===> Epoch 358 Complete: Avg. Loss: 0.000687 time: 664.29
+2024-05-28 13:42:54,536 - INFO: ===> Epoch 358: testing psnr = 27.57, ssim = 0.857, time: 0.03
+2024-05-28 13:53:54,257 - INFO: ===> Epoch 359 Complete: Avg. Loss: 0.000618 time: 659.72
+2024-05-28 13:53:54,608 - INFO: ===> Epoch 359: testing psnr = 27.53, ssim = 0.857, time: 0.03
+2024-05-28 14:04:53,003 - INFO: ===> Epoch 360 Complete: Avg. Loss: 0.000636 time: 658.39
+2024-05-28 14:04:53,354 - INFO: ===> Epoch 360: testing psnr = 27.69, ssim = 0.855, time: 0.03
+2024-05-28 14:15:58,155 - INFO: ===> Epoch 361 Complete: Avg. Loss: 0.000626 time: 664.80
+2024-05-28 14:15:58,503 - INFO: ===> Epoch 361: testing psnr = 27.63, ssim = 0.859, time: 0.03
+2024-05-28 14:26:58,779 - INFO: ===> Epoch 362 Complete: Avg. Loss: 0.001178 time: 660.27
+2024-05-28 14:26:59,135 - INFO: ===> Epoch 362: testing psnr = 27.46, ssim = 0.852, time: 0.03
+2024-05-28 14:38:07,834 - INFO: ===> Epoch 363 Complete: Avg. Loss: 0.000667 time: 668.70
+2024-05-28 14:38:08,186 - INFO: ===> Epoch 363: testing psnr = 27.81, ssim = 0.860, time: 0.03
+2024-05-28 14:49:12,297 - INFO: ===> Epoch 364 Complete: Avg. Loss: 0.000622 time: 664.11
+2024-05-28 14:49:12,647 - INFO: ===> Epoch 364: testing psnr = 27.73, ssim = 0.857, time: 0.03
+2024-05-28 15:00:15,680 - INFO: ===> Epoch 365 Complete: Avg. Loss: 0.000636 time: 663.03
+2024-05-28 15:00:16,026 - INFO: ===> Epoch 365: testing psnr = 27.64, ssim = 0.857, time: 0.03
+2024-05-28 15:11:16,815 - INFO: ===> Epoch 366 Complete: Avg. Loss: 0.000641 time: 660.79
+2024-05-28 15:11:17,162 - INFO: ===> Epoch 366: testing psnr = 27.77, ssim = 0.853, time: 0.03
+2024-05-28 15:22:16,107 - INFO: ===> Epoch 367 Complete: Avg. Loss: 0.000838 time: 658.94
+2024-05-28 15:22:16,450 - INFO: ===> Epoch 367: testing psnr = 27.63, ssim = 0.857, time: 0.03
+2024-05-28 15:33:19,125 - INFO: ===> Epoch 368 Complete: Avg. Loss: 0.000616 time: 662.67
+2024-05-28 15:33:19,473 - INFO: ===> Epoch 368: testing psnr = 27.77, ssim = 0.861, time: 0.03
+2024-05-28 15:44:19,894 - INFO: ===> Epoch 369 Complete: Avg. Loss: 0.000633 time: 660.42
+2024-05-28 15:44:20,246 - INFO: ===> Epoch 369: testing psnr = 27.71, ssim = 0.862, time: 0.03
+2024-05-28 15:55:27,815 - INFO: ===> Epoch 370 Complete: Avg. Loss: 0.000634 time: 667.57
+2024-05-28 15:55:28,173 - INFO: ===> Epoch 370: testing psnr = 27.53, ssim = 0.849, time: 0.03
+2024-05-28 16:06:29,935 - INFO: ===> Epoch 371 Complete: Avg. Loss: 0.000617 time: 661.76
+2024-05-28 16:06:30,289 - INFO: ===> Epoch 371: testing psnr = 27.54, ssim = 0.846, time: 0.03
+2024-05-28 16:17:35,438 - INFO: ===> Epoch 372 Complete: Avg. Loss: 0.000635 time: 665.15
+2024-05-28 16:17:35,787 - INFO: ===> Epoch 372: testing psnr = 27.45, ssim = 0.859, time: 0.03
+2024-05-28 16:28:39,332 - INFO: ===> Epoch 373 Complete: Avg. Loss: 0.000637 time: 663.54
+2024-05-28 16:28:39,689 - INFO: ===> Epoch 373: testing psnr = 27.64, ssim = 0.856, time: 0.03
+2024-05-28 16:39:44,257 - INFO: ===> Epoch 374 Complete: Avg. Loss: 0.000639 time: 664.57
+2024-05-28 16:39:44,606 - INFO: ===> Epoch 374: testing psnr = 27.83, ssim = 0.860, time: 0.03
+2024-05-28 16:50:47,779 - INFO: ===> Epoch 375 Complete: Avg. Loss: 0.000640 time: 663.17
+2024-05-28 16:50:48,128 - INFO: ===> Epoch 375: testing psnr = 27.43, ssim = 0.841, time: 0.03
+2024-05-28 17:01:53,161 - INFO: ===> Epoch 376 Complete: Avg. Loss: 0.000640 time: 665.03
+2024-05-28 17:01:53,513 - INFO: ===> Epoch 376: testing psnr = 27.75, ssim = 0.859, time: 0.03
+2024-05-28 17:12:58,305 - INFO: ===> Epoch 377 Complete: Avg. Loss: 0.000651 time: 664.79
+2024-05-28 17:12:58,655 - INFO: ===> Epoch 377: testing psnr = 27.79, ssim = 0.860, time: 0.03
+2024-05-28 17:24:01,349 - INFO: ===> Epoch 378 Complete: Avg. Loss: 0.000619 time: 662.69
+2024-05-28 17:24:01,697 - INFO: ===> Epoch 378: testing psnr = 27.66, ssim = 0.859, time: 0.03
+2024-05-28 17:35:03,098 - INFO: ===> Epoch 379 Complete: Avg. Loss: 0.000977 time: 661.40
+2024-05-28 17:35:03,447 - INFO: ===> Epoch 379: testing psnr = 27.53, ssim = 0.855, time: 0.03
+2024-05-28 17:46:03,547 - INFO: ===> Epoch 380 Complete: Avg. Loss: 0.000621 time: 660.10
+2024-05-28 17:46:03,900 - INFO: ===> Epoch 380: testing psnr = 27.68, ssim = 0.860, time: 0.03
+2024-05-28 17:57:00,616 - INFO: ===> Epoch 381 Complete: Avg. Loss: 0.000612 time: 656.71
+2024-05-28 17:57:00,980 - INFO: ===> Epoch 381: testing psnr = 27.58, ssim = 0.850, time: 0.03
+2024-05-28 18:08:03,138 - INFO: ===> Epoch 382 Complete: Avg. Loss: 0.000631 time: 662.16
+2024-05-28 18:08:03,492 - INFO: ===> Epoch 382: testing psnr = 27.74, ssim = 0.853, time: 0.03
+2024-05-28 18:19:11,249 - INFO: ===> Epoch 383 Complete: Avg. Loss: 0.000641 time: 667.76
+2024-05-28 18:19:11,600 - INFO: ===> Epoch 383: testing psnr = 27.68, ssim = 0.858, time: 0.03
+2024-05-28 18:30:15,211 - INFO: ===> Epoch 384 Complete: Avg. Loss: 0.000687 time: 663.61
+2024-05-28 18:30:15,566 - INFO: ===> Epoch 384: testing psnr = 27.49, ssim = 0.848, time: 0.03
+2024-05-28 18:41:18,604 - INFO: ===> Epoch 385 Complete: Avg. Loss: 0.000657 time: 663.04
+2024-05-28 18:41:18,954 - INFO: ===> Epoch 385: testing psnr = 27.61, ssim = 0.857, time: 0.03
+2024-05-28 18:52:17,792 - INFO: ===> Epoch 386 Complete: Avg. Loss: 0.000624 time: 658.84
+2024-05-28 18:52:18,141 - INFO: ===> Epoch 386: testing psnr = 27.56, ssim = 0.854, time: 0.03
+2024-05-28 19:03:17,546 - INFO: ===> Epoch 387 Complete: Avg. Loss: 0.000628 time: 659.40
+2024-05-28 19:03:17,891 - INFO: ===> Epoch 387: testing psnr = 27.73, ssim = 0.858, time: 0.03
+2024-05-28 19:14:16,436 - INFO: ===> Epoch 388 Complete: Avg. Loss: 0.000629 time: 658.54
+2024-05-28 19:14:16,783 - INFO: ===> Epoch 388: testing psnr = 27.61, ssim = 0.858, time: 0.03
+2024-05-28 19:25:18,317 - INFO: ===> Epoch 389 Complete: Avg. Loss: 0.000786 time: 661.53
+2024-05-28 19:25:18,664 - INFO: ===> Epoch 389: testing psnr = 26.15, ssim = 0.773, time: 0.03
+2024-05-28 19:36:17,131 - INFO: ===> Epoch 390 Complete: Avg. Loss: 0.000708 time: 658.47
+2024-05-28 19:36:17,524 - INFO: ===> Epoch 390: testing psnr = 27.83, ssim = 0.860, time: 0.04
+2024-05-28 19:47:18,040 - INFO: ===> Epoch 391 Complete: Avg. Loss: 0.000601 time: 660.51
+2024-05-28 19:47:18,392 - INFO: ===> Epoch 391: testing psnr = 27.54, ssim = 0.852, time: 0.03
+2024-05-28 19:58:16,165 - INFO: ===> Epoch 392 Complete: Avg. Loss: 0.000626 time: 657.77
+2024-05-28 19:58:16,508 - INFO: ===> Epoch 392: testing psnr = 27.92, ssim = 0.861, time: 0.03
+2024-05-28 20:09:14,059 - INFO: ===> Epoch 393 Complete: Avg. Loss: 0.000621 time: 657.55
+2024-05-28 20:09:14,404 - INFO: ===> Epoch 393: testing psnr = 27.91, ssim = 0.860, time: 0.03
+2024-05-28 20:20:17,721 - INFO: ===> Epoch 394 Complete: Avg. Loss: 0.000616 time: 663.32
+2024-05-28 20:20:18,073 - INFO: ===> Epoch 394: testing psnr = 27.83, ssim = 0.861, time: 0.03
+2024-05-28 20:31:15,303 - INFO: ===> Epoch 395 Complete: Avg. Loss: 0.000620 time: 657.23
+2024-05-28 20:31:15,651 - INFO: ===> Epoch 395: testing psnr = 27.67, ssim = 0.858, time: 0.03
+2024-05-28 20:42:17,421 - INFO: ===> Epoch 396 Complete: Avg. Loss: 0.000626 time: 661.77
+2024-05-28 20:42:17,775 - INFO: ===> Epoch 396: testing psnr = 27.63, ssim = 0.857, time: 0.03
+2024-05-28 20:53:16,583 - INFO: ===> Epoch 397 Complete: Avg. Loss: 0.000633 time: 658.81
+2024-05-28 20:53:16,941 - INFO: ===> Epoch 397: testing psnr = 27.63, ssim = 0.857, time: 0.03
+2024-05-28 21:04:15,687 - INFO: ===> Epoch 398 Complete: Avg. Loss: 0.000635 time: 658.74
+2024-05-28 21:04:16,039 - INFO: ===> Epoch 398: testing psnr = 27.58, ssim = 0.848, time: 0.04
+2024-05-28 21:15:16,957 - INFO: ===> Epoch 399 Complete: Avg. Loss: 0.000638 time: 660.92
+2024-05-28 21:15:17,309 - INFO: ===> Epoch 399: testing psnr = 27.66, ssim = 0.860, time: 0.03
+2024-05-28 21:26:21,503 - INFO: ===> Epoch 400 Complete: Avg. Loss: 0.000616 time: 664.19
+2024-05-28 21:26:21,854 - INFO: ===> Epoch 400: testing psnr = 27.79, ssim = 0.860, time: 0.03
+2024-05-28 21:37:24,844 - INFO: ===> Epoch 401 Complete: Avg. Loss: 0.000622 time: 662.99
+2024-05-28 21:37:25,194 - INFO: ===> Epoch 401: testing psnr = 27.56, ssim = 0.859, time: 0.03
+2024-05-28 21:48:29,437 - INFO: ===> Epoch 402 Complete: Avg. Loss: 0.000621 time: 664.24
+2024-05-28 21:48:29,783 - INFO: ===> Epoch 402: testing psnr = 27.82, ssim = 0.862, time: 0.03
+2024-05-28 21:59:28,121 - INFO: ===> Epoch 403 Complete: Avg. Loss: 0.000731 time: 658.34
+2024-05-28 21:59:28,469 - INFO: ===> Epoch 403: testing psnr = 26.87, ssim = 0.826, time: 0.03
+2024-05-28 22:10:25,048 - INFO: ===> Epoch 404 Complete: Avg. Loss: 0.000611 time: 656.58
+2024-05-28 22:10:25,393 - INFO: ===> Epoch 404: testing psnr = 27.71, ssim = 0.861, time: 0.03
+2024-05-28 22:21:24,687 - INFO: ===> Epoch 405 Complete: Avg. Loss: 0.000609 time: 659.29
+2024-05-28 22:21:25,037 - INFO: ===> Epoch 405: testing psnr = 27.68, ssim = 0.861, time: 0.03
+2024-05-28 22:32:24,853 - INFO: ===> Epoch 406 Complete: Avg. Loss: 0.000615 time: 659.81
+2024-05-28 22:32:25,200 - INFO: ===> Epoch 406: testing psnr = 27.85, ssim = 0.864, time: 0.03
+2024-05-28 22:43:22,206 - INFO: ===> Epoch 407 Complete: Avg. Loss: 0.000625 time: 657.00
+2024-05-28 22:43:22,554 - INFO: ===> Epoch 407: testing psnr = 27.55, ssim = 0.854, time: 0.03
+2024-05-28 22:54:21,513 - INFO: ===> Epoch 408 Complete: Avg. Loss: 0.000626 time: 658.96
+2024-05-28 22:54:21,858 - INFO: ===> Epoch 408: testing psnr = 27.40, ssim = 0.852, time: 0.03
+2024-05-28 23:05:21,882 - INFO: ===> Epoch 409 Complete: Avg. Loss: 0.000634 time: 660.02
+2024-05-28 23:05:22,225 - INFO: ===> Epoch 409: testing psnr = 27.52, ssim = 0.852, time: 0.03
+2024-05-28 23:16:21,321 - INFO: ===> Epoch 410 Complete: Avg. Loss: 0.000617 time: 659.09
+2024-05-28 23:16:21,669 - INFO: ===> Epoch 410: testing psnr = 27.76, ssim = 0.860, time: 0.03
+2024-05-28 23:27:14,365 - INFO: ===> Epoch 411 Complete: Avg. Loss: 0.000645 time: 652.69
+2024-05-28 23:27:14,713 - INFO: ===> Epoch 411: testing psnr = 27.60, ssim = 0.850, time: 0.03
+2024-05-28 23:38:16,872 - INFO: ===> Epoch 412 Complete: Avg. Loss: 0.000612 time: 662.16
+2024-05-28 23:38:17,223 - INFO: ===> Epoch 412: testing psnr = 27.74, ssim = 0.858, time: 0.03
+2024-05-28 23:49:11,855 - INFO: ===> Epoch 413 Complete: Avg. Loss: 0.000624 time: 654.63
+2024-05-28 23:49:12,200 - INFO: ===> Epoch 413: testing psnr = 27.58, ssim = 0.846, time: 0.03
+2024-05-29 00:00:14,607 - INFO: ===> Epoch 414 Complete: Avg. Loss: 0.000966 time: 662.41
+2024-05-29 00:00:14,954 - INFO: ===> Epoch 414: testing psnr = 27.45, ssim = 0.858, time: 0.03
+2024-05-29 00:11:12,009 - INFO: ===> Epoch 415 Complete: Avg. Loss: 0.000609 time: 657.05
+2024-05-29 00:11:12,403 - INFO: ===> Epoch 415: testing psnr = 27.82, ssim = 0.862, time: 0.03
+2024-05-29 00:22:09,949 - INFO: ===> Epoch 416 Complete: Avg. Loss: 0.000608 time: 657.54
+2024-05-29 00:22:10,293 - INFO: ===> Epoch 416: testing psnr = 27.82, ssim = 0.861, time: 0.03
+2024-05-29 00:33:06,395 - INFO: ===> Epoch 417 Complete: Avg. Loss: 0.000620 time: 656.10
+2024-05-29 00:33:06,746 - INFO: ===> Epoch 417: testing psnr = 27.86, ssim = 0.859, time: 0.03
+2024-05-29 00:44:09,388 - INFO: ===> Epoch 418 Complete: Avg. Loss: 0.000595 time: 662.64
+2024-05-29 00:44:09,736 - INFO: ===> Epoch 418: testing psnr = 27.69, ssim = 0.858, time: 0.03
+2024-05-29 00:55:09,364 - INFO: ===> Epoch 419 Complete: Avg. Loss: 0.000633 time: 659.63
+2024-05-29 00:55:09,714 - INFO: ===> Epoch 419: testing psnr = 27.76, ssim = 0.856, time: 0.03
+2024-05-29 01:06:08,267 - INFO: ===> Epoch 420 Complete: Avg. Loss: 0.000638 time: 658.55
+2024-05-29 01:06:08,615 - INFO: ===> Epoch 420: testing psnr = 27.88, ssim = 0.860, time: 0.03
+2024-05-29 01:17:08,354 - INFO: ===> Epoch 421 Complete: Avg. Loss: 0.000701 time: 659.74
+2024-05-29 01:17:08,703 - INFO: ===> Epoch 421: testing psnr = 27.62, ssim = 0.851, time: 0.03
+2024-05-29 01:28:07,786 - INFO: ===> Epoch 422 Complete: Avg. Loss: 0.000621 time: 659.08
+2024-05-29 01:28:08,134 - INFO: ===> Epoch 422: testing psnr = 27.95, ssim = 0.865, time: 0.03
+2024-05-29 01:39:08,605 - INFO: ===> Epoch 423 Complete: Avg. Loss: 0.000613 time: 660.47
+2024-05-29 01:39:08,951 - INFO: ===> Epoch 423: testing psnr = 27.92, ssim = 0.859, time: 0.03
+2024-05-29 01:50:11,110 - INFO: ===> Epoch 424 Complete: Avg. Loss: 0.000622 time: 662.16
+2024-05-29 01:50:11,459 - INFO: ===> Epoch 424: testing psnr = 27.96, ssim = 0.865, time: 0.03
+2024-05-29 02:01:15,034 - INFO: ===> Epoch 425 Complete: Avg. Loss: 0.000615 time: 663.57
+2024-05-29 02:01:15,397 - INFO: ===> Epoch 425: testing psnr = 27.81, ssim = 0.853, time: 0.03
+2024-05-29 02:12:18,082 - INFO: ===> Epoch 426 Complete: Avg. Loss: 0.000620 time: 662.68
+2024-05-29 02:12:18,435 - INFO: ===> Epoch 426: testing psnr = 28.09, ssim = 0.862, time: 0.03
+2024-05-29 02:12:19,143 - INFO: Checkpoint saved to ./model/2024_05_25_20_59_43/model_epoch_426.pth
+2024-05-29 02:23:19,741 - INFO: ===> Epoch 427 Complete: Avg. Loss: 0.000624 time: 660.60
+2024-05-29 02:23:20,098 - INFO: ===> Epoch 427: testing psnr = 27.75, ssim = 0.858, time: 0.03
+2024-05-29 02:34:20,921 - INFO: ===> Epoch 428 Complete: Avg. Loss: 0.000604 time: 660.82
+2024-05-29 02:34:21,269 - INFO: ===> Epoch 428: testing psnr = 27.81, ssim = 0.861, time: 0.03
+2024-05-29 02:45:25,395 - INFO: ===> Epoch 429 Complete: Avg. Loss: 0.000958 time: 664.12
+2024-05-29 02:45:25,746 - INFO: ===> Epoch 429: testing psnr = 27.46, ssim = 0.854, time: 0.03
+2024-05-29 02:56:27,974 - INFO: ===> Epoch 430 Complete: Avg. Loss: 0.000624 time: 662.23
+2024-05-29 02:56:28,329 - INFO: ===> Epoch 430: testing psnr = 27.73, ssim = 0.853, time: 0.03
+2024-05-29 03:07:31,561 - INFO: ===> Epoch 431 Complete: Avg. Loss: 0.000596 time: 663.23
+2024-05-29 03:07:31,907 - INFO: ===> Epoch 431: testing psnr = 27.91, ssim = 0.861, time: 0.03
+2024-05-29 03:18:36,271 - INFO: ===> Epoch 432 Complete: Avg. Loss: 0.000626 time: 664.36
+2024-05-29 03:18:36,627 - INFO: ===> Epoch 432: testing psnr = 27.88, ssim = 0.853, time: 0.03
+2024-05-29 03:29:42,008 - INFO: ===> Epoch 433 Complete: Avg. Loss: 0.000613 time: 665.38
+2024-05-29 03:29:42,363 - INFO: ===> Epoch 433: testing psnr = 27.90, ssim = 0.864, time: 0.03
+2024-05-29 03:40:44,027 - INFO: ===> Epoch 434 Complete: Avg. Loss: 0.000646 time: 661.66
+2024-05-29 03:40:44,384 - INFO: ===> Epoch 434: testing psnr = 27.93, ssim = 0.862, time: 0.03
+2024-05-29 03:51:45,125 - INFO: ===> Epoch 435 Complete: Avg. Loss: 0.000612 time: 660.74
+2024-05-29 03:51:45,474 - INFO: ===> Epoch 435: testing psnr = 27.65, ssim = 0.860, time: 0.03
+2024-05-29 04:02:48,108 - INFO: ===> Epoch 436 Complete: Avg. Loss: 0.000678 time: 662.63
+2024-05-29 04:02:48,462 - INFO: ===> Epoch 436: testing psnr = 27.61, ssim = 0.859, time: 0.03
+2024-05-29 04:13:50,570 - INFO: ===> Epoch 437 Complete: Avg. Loss: 0.000595 time: 662.11
+2024-05-29 04:13:50,930 - INFO: ===> Epoch 437: testing psnr = 27.70, ssim = 0.861, time: 0.03
+2024-05-29 04:24:53,349 - INFO: ===> Epoch 438 Complete: Avg. Loss: 0.000640 time: 662.42
+2024-05-29 04:24:53,699 - INFO: ===> Epoch 438: testing psnr = 27.76, ssim = 0.861, time: 0.03
+2024-05-29 04:35:51,237 - INFO: ===> Epoch 439 Complete: Avg. Loss: 0.000615 time: 657.54
+2024-05-29 04:35:51,588 - INFO: ===> Epoch 439: testing psnr = 27.79, ssim = 0.860, time: 0.03
+2024-05-29 04:46:51,327 - INFO: ===> Epoch 440 Complete: Avg. Loss: 0.000608 time: 659.74
+2024-05-29 04:46:51,674 - INFO: ===> Epoch 440: testing psnr = 27.66, ssim = 0.858, time: 0.03
+2024-05-29 04:57:48,585 - INFO: ===> Epoch 441 Complete: Avg. Loss: 0.000684 time: 656.91
+2024-05-29 04:57:48,945 - INFO: ===> Epoch 441: testing psnr = 28.34, ssim = 0.867, time: 0.03
+2024-05-29 04:57:49,643 - INFO: Checkpoint saved to ./model/2024_05_25_20_59_43/model_epoch_441.pth
+2024-05-29 05:08:47,408 - INFO: ===> Epoch 442 Complete: Avg. Loss: 0.000609 time: 657.76
+2024-05-29 05:08:47,753 - INFO: ===> Epoch 442: testing psnr = 28.07, ssim = 0.860, time: 0.03
+2024-05-29 05:19:44,889 - INFO: ===> Epoch 443 Complete: Avg. Loss: 0.000628 time: 657.13
+2024-05-29 05:19:45,250 - INFO: ===> Epoch 443: testing psnr = 28.14, ssim = 0.863, time: 0.03
+2024-05-29 05:30:43,870 - INFO: ===> Epoch 444 Complete: Avg. Loss: 0.000634 time: 658.62
+2024-05-29 05:30:44,221 - INFO: ===> Epoch 444: testing psnr = 27.20, ssim = 0.830, time: 0.03
+2024-05-29 05:41:44,226 - INFO: ===> Epoch 445 Complete: Avg. Loss: 0.000604 time: 660.00
+2024-05-29 05:41:44,575 - INFO: ===> Epoch 445: testing psnr = 27.75, ssim = 0.856, time: 0.03
+2024-05-29 05:52:41,501 - INFO: ===> Epoch 446 Complete: Avg. Loss: 0.000617 time: 656.92
+2024-05-29 05:52:41,848 - INFO: ===> Epoch 446: testing psnr = 27.73, ssim = 0.863, time: 0.03
+2024-05-29 06:03:36,894 - INFO: ===> Epoch 447 Complete: Avg. Loss: 0.000627 time: 655.04
+2024-05-29 06:03:37,252 - INFO: ===> Epoch 447: testing psnr = 27.81, ssim = 0.860, time: 0.03
+2024-05-29 06:14:40,454 - INFO: ===> Epoch 448 Complete: Avg. Loss: 0.000606 time: 663.20
+2024-05-29 06:14:40,810 - INFO: ===> Epoch 448: testing psnr = 27.79, ssim = 0.861, time: 0.03
+2024-05-29 06:25:40,325 - INFO: ===> Epoch 449 Complete: Avg. Loss: 0.000607 time: 659.51
+2024-05-29 06:25:40,676 - INFO: ===> Epoch 449: testing psnr = 28.00, ssim = 0.866, time: 0.03
+2024-05-29 06:36:37,314 - INFO: ===> Epoch 450 Complete: Avg. Loss: 0.000636 time: 656.64
+2024-05-29 06:36:37,665 - INFO: ===> Epoch 450: testing psnr = 27.41, ssim = 0.842, time: 0.03
+2024-05-29 06:47:38,094 - INFO: ===> Epoch 451 Complete: Avg. Loss: 0.000624 time: 660.43
+2024-05-29 06:47:38,440 - INFO: ===> Epoch 451: testing psnr = 28.18, ssim = 0.862, time: 0.03
+2024-05-29 06:58:36,973 - INFO: ===> Epoch 452 Complete: Avg. Loss: 0.000620 time: 658.53
+2024-05-29 06:58:37,334 - INFO: ===> Epoch 452: testing psnr = 27.71, ssim = 0.861, time: 0.03
+2024-05-29 07:09:35,452 - INFO: ===> Epoch 453 Complete: Avg. Loss: 0.000600 time: 658.12
+2024-05-29 07:09:35,800 - INFO: ===> Epoch 453: testing psnr = 27.74, ssim = 0.859, time: 0.03
+2024-05-29 07:20:37,186 - INFO: ===> Epoch 454 Complete: Avg. Loss: 0.000618 time: 661.38
+2024-05-29 07:20:37,538 - INFO: ===> Epoch 454: testing psnr = 27.56, ssim = 0.857, time: 0.03
+2024-05-29 07:31:35,447 - INFO: ===> Epoch 455 Complete: Avg. Loss: 0.000626 time: 657.91
+2024-05-29 07:31:35,797 - INFO: ===> Epoch 455: testing psnr = 27.78, ssim = 0.854, time: 0.03
+2024-05-29 07:42:35,799 - INFO: ===> Epoch 456 Complete: Avg. Loss: 0.000620 time: 660.00
+2024-05-29 07:42:36,148 - INFO: ===> Epoch 456: testing psnr = 27.69, ssim = 0.856, time: 0.03
+2024-05-29 07:53:39,121 - INFO: ===> Epoch 457 Complete: Avg. Loss: 0.000610 time: 662.97
+2024-05-29 07:53:39,475 - INFO: ===> Epoch 457: testing psnr = 27.83, ssim = 0.859, time: 0.03
+2024-05-29 08:04:35,694 - INFO: ===> Epoch 458 Complete: Avg. Loss: 0.000621 time: 656.22
+2024-05-29 08:04:36,043 - INFO: ===> Epoch 458: testing psnr = 27.72, ssim = 0.854, time: 0.03
+2024-05-29 08:15:34,077 - INFO: ===> Epoch 459 Complete: Avg. Loss: 0.000610 time: 658.03
+2024-05-29 08:15:34,419 - INFO: ===> Epoch 459: testing psnr = 27.71, ssim = 0.860, time: 0.03
+2024-05-29 08:26:33,559 - INFO: ===> Epoch 460 Complete: Avg. Loss: 0.000604 time: 659.14
+2024-05-29 08:26:33,907 - INFO: ===> Epoch 460: testing psnr = 28.08, ssim = 0.865, time: 0.03
+2024-05-29 08:37:37,536 - INFO: ===> Epoch 461 Complete: Avg. Loss: 0.000631 time: 663.63
+2024-05-29 08:37:37,884 - INFO: ===> Epoch 461: testing psnr = 27.54, ssim = 0.854, time: 0.03
+2024-05-29 08:48:36,101 - INFO: ===> Epoch 462 Complete: Avg. Loss: 0.000618 time: 658.22
+2024-05-29 08:48:36,452 - INFO: ===> Epoch 462: testing psnr = 27.56, ssim = 0.857, time: 0.03
+2024-05-29 08:59:32,295 - INFO: ===> Epoch 463 Complete: Avg. Loss: 0.000619 time: 655.84
+2024-05-29 08:59:32,641 - INFO: ===> Epoch 463: testing psnr = 26.86, ssim = 0.834, time: 0.03
+2024-05-29 09:10:28,023 - INFO: ===> Epoch 464 Complete: Avg. Loss: 0.000748 time: 655.38
+2024-05-29 09:10:28,371 - INFO: ===> Epoch 464: testing psnr = 27.94, ssim = 0.860, time: 0.03
+2024-05-29 09:21:25,486 - INFO: ===> Epoch 465 Complete: Avg. Loss: 0.000613 time: 657.11
+2024-05-29 09:21:25,846 - INFO: ===> Epoch 465: testing psnr = 28.08, ssim = 0.863, time: 0.03
+2024-05-29 09:32:21,511 - INFO: ===> Epoch 466 Complete: Avg. Loss: 0.000624 time: 655.66
+2024-05-29 09:32:21,860 - INFO: ===> Epoch 466: testing psnr = 27.98, ssim = 0.862, time: 0.03
+2024-05-29 09:43:24,140 - INFO: ===> Epoch 467 Complete: Avg. Loss: 0.000609 time: 662.28
+2024-05-29 09:43:24,488 - INFO: ===> Epoch 467: testing psnr = 28.09, ssim = 0.861, time: 0.03
+2024-05-29 09:54:22,592 - INFO: ===> Epoch 468 Complete: Avg. Loss: 0.000614 time: 658.10
+2024-05-29 09:54:22,938 - INFO: ===> Epoch 468: testing psnr = 27.74, ssim = 0.859, time: 0.03
+2024-05-29 10:05:18,331 - INFO: ===> Epoch 469 Complete: Avg. Loss: 0.000601 time: 655.39
+2024-05-29 10:05:18,680 - INFO: ===> Epoch 469: testing psnr = 28.12, ssim = 0.864, time: 0.03
+2024-05-29 10:16:19,755 - INFO: ===> Epoch 470 Complete: Avg. Loss: 0.000597 time: 661.07
+2024-05-29 10:16:20,114 - INFO: ===> Epoch 470: testing psnr = 27.91, ssim = 0.863, time: 0.03
+2024-05-29 10:27:18,310 - INFO: ===> Epoch 471 Complete: Avg. Loss: 0.000633 time: 658.19
+2024-05-29 10:27:18,663 - INFO: ===> Epoch 471: testing psnr = 27.37, ssim = 0.852, time: 0.03
+2024-05-29 10:38:16,417 - INFO: ===> Epoch 472 Complete: Avg. Loss: 0.000615 time: 657.75
+2024-05-29 10:38:16,765 - INFO: ===> Epoch 472: testing psnr = 27.76, ssim = 0.861, time: 0.03
+2024-05-29 10:49:15,575 - INFO: ===> Epoch 473 Complete: Avg. Loss: 0.000615 time: 658.81
+2024-05-29 10:49:15,923 - INFO: ===> Epoch 473: testing psnr = 27.99, ssim = 0.860, time: 0.03
+2024-05-29 11:00:10,803 - INFO: ===> Epoch 474 Complete: Avg. Loss: 0.000596 time: 654.88
+2024-05-29 11:00:11,153 - INFO: ===> Epoch 474: testing psnr = 27.89, ssim = 0.863, time: 0.03
+2024-05-29 11:11:09,489 - INFO: ===> Epoch 475 Complete: Avg. Loss: 0.000648 time: 658.33
+2024-05-29 11:11:09,842 - INFO: ===> Epoch 475: testing psnr = 27.63, ssim = 0.857, time: 0.03
+2024-05-29 11:22:07,002 - INFO: ===> Epoch 476 Complete: Avg. Loss: 0.000606 time: 657.16
+2024-05-29 11:22:07,362 - INFO: ===> Epoch 476: testing psnr = 27.90, ssim = 0.864, time: 0.03
+2024-05-29 11:33:05,638 - INFO: ===> Epoch 477 Complete: Avg. Loss: 0.000664 time: 658.27
+2024-05-29 11:33:05,988 - INFO: ===> Epoch 477: testing psnr = 27.36, ssim = 0.846, time: 0.03
+2024-05-29 11:44:05,635 - INFO: ===> Epoch 478 Complete: Avg. Loss: 0.000622 time: 659.65
+2024-05-29 11:44:05,981 - INFO: ===> Epoch 478: testing psnr = 27.77, ssim = 0.861, time: 0.03
+2024-05-29 11:55:07,167 - INFO: ===> Epoch 479 Complete: Avg. Loss: 0.000575 time: 661.18
+2024-05-29 11:55:07,520 - INFO: ===> Epoch 479: testing psnr = 28.00, ssim = 0.864, time: 0.03
+2024-05-29 12:06:10,373 - INFO: ===> Epoch 480 Complete: Avg. Loss: 0.000610 time: 662.85
+2024-05-29 12:06:10,729 - INFO: ===> Epoch 480: testing psnr = 27.87, ssim = 0.862, time: 0.03
+2024-05-29 12:17:10,447 - INFO: ===> Epoch 481 Complete: Avg. Loss: 0.000614 time: 659.72
+2024-05-29 12:17:10,831 - INFO: ===> Epoch 481: testing psnr = 27.90, ssim = 0.863, time: 0.03
+2024-05-29 12:28:10,510 - INFO: ===> Epoch 482 Complete: Avg. Loss: 0.000598 time: 659.68
+2024-05-29 12:28:10,862 - INFO: ===> Epoch 482: testing psnr = 27.56, ssim = 0.854, time: 0.03
+2024-05-29 12:39:13,060 - INFO: ===> Epoch 483 Complete: Avg. Loss: 0.000597 time: 662.20
+2024-05-29 12:39:13,412 - INFO: ===> Epoch 483: testing psnr = 27.74, ssim = 0.860, time: 0.03
+2024-05-29 12:50:18,200 - INFO: ===> Epoch 484 Complete: Avg. Loss: 0.000617 time: 664.79
+2024-05-29 12:50:18,556 - INFO: ===> Epoch 484: testing psnr = 27.57, ssim = 0.859, time: 0.03
+2024-05-29 13:01:17,932 - INFO: ===> Epoch 485 Complete: Avg. Loss: 0.000584 time: 659.37
+2024-05-29 13:01:18,338 - INFO: ===> Epoch 485: testing psnr = 27.66, ssim = 0.861, time: 0.03
+2024-05-29 13:12:19,727 - INFO: ===> Epoch 486 Complete: Avg. Loss: 0.000682 time: 661.39
+2024-05-29 13:12:20,078 - INFO: ===> Epoch 486: testing psnr = 27.84, ssim = 0.863, time: 0.03
+2024-05-29 13:23:22,361 - INFO: ===> Epoch 487 Complete: Avg. Loss: 0.000574 time: 662.28
+2024-05-29 13:23:22,709 - INFO: ===> Epoch 487: testing psnr = 27.44, ssim = 0.855, time: 0.03
+2024-05-29 13:34:24,527 - INFO: ===> Epoch 488 Complete: Avg. Loss: 0.000603 time: 661.82
+2024-05-29 13:34:24,880 - INFO: ===> Epoch 488: testing psnr = 28.06, ssim = 0.866, time: 0.03
+2024-05-29 13:45:22,275 - INFO: ===> Epoch 489 Complete: Avg. Loss: 0.000606 time: 657.39
+2024-05-29 13:45:22,634 - INFO: ===> Epoch 489: testing psnr = 27.95, ssim = 0.863, time: 0.03
+2024-05-29 13:56:25,949 - INFO: ===> Epoch 490 Complete: Avg. Loss: 0.000609 time: 663.31
+2024-05-29 13:56:26,298 - INFO: ===> Epoch 490: testing psnr = 27.60, ssim = 0.852, time: 0.03
+2024-05-29 14:07:29,726 - INFO: ===> Epoch 491 Complete: Avg. Loss: 0.000637 time: 663.43
+2024-05-29 14:07:30,078 - INFO: ===> Epoch 491: testing psnr = 28.04, ssim = 0.863, time: 0.03
+2024-05-29 14:18:30,843 - INFO: ===> Epoch 492 Complete: Avg. Loss: 0.000596 time: 660.76
+2024-05-29 14:18:31,191 - INFO: ===> Epoch 492: testing psnr = 27.92, ssim = 0.858, time: 0.03
+2024-05-29 14:29:36,090 - INFO: ===> Epoch 493 Complete: Avg. Loss: 0.000598 time: 664.90
+2024-05-29 14:29:36,439 - INFO: ===> Epoch 493: testing psnr = 27.69, ssim = 0.860, time: 0.03
+2024-05-29 14:40:36,576 - INFO: ===> Epoch 494 Complete: Avg. Loss: 0.000604 time: 660.14
+2024-05-29 14:40:36,925 - INFO: ===> Epoch 494: testing psnr = 27.81, ssim = 0.861, time: 0.03
+2024-05-29 14:51:38,199 - INFO: ===> Epoch 495 Complete: Avg. Loss: 0.000608 time: 661.27
+2024-05-29 14:51:38,548 - INFO: ===> Epoch 495: testing psnr = 27.87, ssim = 0.861, time: 0.03
+2024-05-29 15:02:43,740 - INFO: ===> Epoch 496 Complete: Avg. Loss: 0.000627 time: 665.19
+2024-05-29 15:02:44,099 - INFO: ===> Epoch 496: testing psnr = 27.60, ssim = 0.860, time: 0.03
+2024-05-29 15:13:45,746 - INFO: ===> Epoch 497 Complete: Avg. Loss: 0.000612 time: 661.65
+2024-05-29 15:13:46,095 - INFO: ===> Epoch 497: testing psnr = 28.20, ssim = 0.867, time: 0.03
+2024-05-29 15:24:48,876 - INFO: ===> Epoch 498 Complete: Avg. Loss: 0.000599 time: 662.78
+2024-05-29 15:24:49,226 - INFO: ===> Epoch 498: testing psnr = 27.62, ssim = 0.862, time: 0.03
+2024-05-29 15:35:50,139 - INFO: ===> Epoch 499 Complete: Avg. Loss: 0.000604 time: 660.91
+2024-05-29 15:35:50,490 - INFO: ===> Epoch 499: testing psnr = 27.91, ssim = 0.863, time: 0.03
+2024-05-29 15:46:55,647 - INFO: ===> Epoch 500 Complete: Avg. Loss: 0.000611 time: 665.15
+2024-05-29 15:46:56,002 - INFO: ===> Epoch 500: testing psnr = 27.88, ssim = 0.863, time: 0.03

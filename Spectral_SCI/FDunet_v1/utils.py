@@ -9,11 +9,13 @@ import logging
 from ssim_torch import ssim
 
 def generate_masks(mask_path, batch_size):
-    nC = 28
-    mask = scio.loadmat(mask_path)
+    mask = sio.loadmat(mask_path)
     mask_3d_shift = mask['mask_3d_shift']
     mask_3d_shift = np.transpose(mask_3d_shift, [2, 0, 1])
     mask_3d_shift = torch.from_numpy(mask_3d_shift)
+    nC = mask_3d_shift.shape[0]
+    H = mask_3d_shift.shape[1]
+    W = mask_3d_shift.shape[2]
     Phi_batch = mask_3d_shift.expand([batch_size, nC, H, W]).cuda().float()
     Phi_s_batch = torch.sum(Phi_batch,1)
     Phi_s_batch[Phi_s_batch==0] = 1
@@ -33,6 +35,8 @@ def LoadTraining(path):
         img_dict = sio.loadmat(scene_path)
         if "cast" in img_dict:
             img = img_dict['cast']/65536.
+        else:
+            img = img_dict['data_slice']/65536.
         img = img.astype(np.float32)
         imgs.append(img)
         print('Sence {} is loaded. {}'.format(i, scene_list[i]))
@@ -98,7 +102,7 @@ def shuffle_crop(train_data, batch_size):
         h, w, _ = train_data[index[i]].shape
         x_index = np.random.randint(0, h - 256)
         y_index = np.random.randint(0, w - 256)
-        gt_img = train_data[index[i]][x_index:x_index + 256, y_index:y_index + 256, :] 
+        gt_img = train_data[index[i]][x_index:x_index + 256, y_index:y_index + 256,:] 
         rot_angle = random.randint(1,4)
         gt_img = np.rot90(gt_img, rot_angle)
         processed_data[i, :, :, :] = gt_img
@@ -110,7 +114,7 @@ def gen_meas_torch(data_batch, Phi_batch, is_training=True):
     [batch_size, nC, H, W] = data_batch.shape
     step = 2
     if is_training is False:
-        Phi_batch = (Phi_batch[0,:,:,:]).expand([batch_size, nC, H, W]).cuda().float()
+        Phi_batch = (Phi_batch[0,:,:,:]).expand([batch_size, nC, H, W+step*(nC-1)]).cuda().float()
     gt_batch = torch.zeros(batch_size, nC, H, W+step*(nC-1)).cuda()
     gt_batch[:,:,:,0:W] = data_batch
     gt_shift_batch = shift(gt_batch)

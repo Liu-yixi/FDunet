@@ -1,6 +1,6 @@
 import torch.nn.functional as F
 from my_tools import *
-from utils import A, At
+from utils import A, At, shift, shift_back
 import torch
 import torchvision
 
@@ -9,15 +9,15 @@ class GAP_net(nn.Module):
     def __init__(self):
         super(GAP_net, self).__init__()
                 
-        self.unet1 = Unet(31, 31)
-        self.unet2 = Unet(31, 31)
-        self.unet3 = Unet(31, 31)
-        self.unet4 = Unet(31, 31)
-        self.unet5 = Unet(31, 31)
-        self.unet6 = Unet(31, 31)
-        self.unet7 = Unet(31, 31)
-        self.unet8 = Unet(31, 31)
-        self.unet9 = Unet(31, 31)   
+        self.unet1 = Unet(28, 28)
+        self.unet2 = Unet(28, 28)
+        self.unet3 = Unet(28, 28)
+        self.unet4 = Unet(28, 28)
+        self.unet5 = Unet(28, 28)
+        self.unet6 = Unet(28, 28)
+        self.unet7 = Unet(28, 28)
+        self.unet8 = Unet(28, 28)
+        self.unet9 = Unet(28, 28)   
 
     def forward(self, y, Phi, Phi_s):
         x_list = []

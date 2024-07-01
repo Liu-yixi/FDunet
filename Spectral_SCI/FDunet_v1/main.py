@@ -1,5 +1,5 @@
 #from dataloader import dataset
-from models import GAP_net
+from models_v5 import GAP_net
 from utils import *
 #from torch.utils.data import DataLoader
 import torch.optim as optim
@@ -17,15 +17,15 @@ torch.backends.cudnn.benchmark = True
 if not torch.cuda.is_available():
     raise Exception('NO GPU!')
 
-data_path = "../Data/training_data/"  
+data_path = "../Data/train_data/"  
 mask_path = "../Data/mask/mask_3d_shift.mat"
 test_path = "../Data/testing_data/" 
 
 batch_size = 5
-nC, H, W = 28, 256, 256
+nC, H, W = 28, 256, 310
 last_train = 0                        # for finetune
 model_save_filename = ''                 # for finetune
-max_epoch = 500
+max_epoch = 100
 learning_rate = 0.0004
 epoch_sam_num = 5000
 batch_num = int(np.floor(epoch_sam_num/batch_size))
@@ -40,6 +40,7 @@ if last_train != 0:
     model = torch.load('./model/' + model_save_filename + '/model_epoch_{}.pth'.format(last_train))    
 optimizer = torch.optim.Adam(model.parameters(), lr = learning_rate, betas=(0.9, 0.999))
 mse = torch.nn.MSELoss().cuda()
+torch.autograd.set_detect_anomaly(True)
 
 def train(epoch, learning_rate, logger):
     epoch_loss = 0
@@ -48,13 +49,15 @@ def train(epoch, learning_rate, logger):
         gt_batch = shuffle_crop(train_set, batch_size)
         gt = Variable(gt_batch).cuda().float()
         y = gen_meas_torch(gt, Phi_batch, is_training = True)
-        optimizer.zero_grad()
         model_out = model(y, Phi_batch, Phi_s_batch)
-        Loss = mse(model_out[-1], gt) + 0.5*mse(model_out[-2], gt) + 0.5*mse(model_out[-3], gt)
+        Loss = mse(model_out[-1], gt) #+ 0.5*mse(model_out[-2], gt) + 0.5*mse(model_out[-3], gt)
         #Loss = mse(model_out, gt)
         epoch_loss += Loss.data
+        optimizer.zero_grad()
         Loss.backward()
         optimizer.step()
+        ## 调试阶段！！记得删掉！！
+        # break
     end = time.time()
     logger.info("===> Epoch {} Complete: Avg. Loss: {:.6f} time: {:.2f}".format(epoch, epoch_loss/batch_num, (end - begin)))
 
@@ -95,8 +98,8 @@ def main(learning_rate):
         date_time = model_save_filename
     result_path = 'recon' + '/' + date_time
     model_path = 'model' + '/' + date_time
-    if not os.path.exists(result_path):
-        os.makedirs(result_path)
+    # if not os.path.exists(result_path):
+    #     os.makedirs(result_path)
     if not os.path.exists(model_path):
         os.makedirs(model_path)
     logger = gen_log(model_path)
@@ -106,13 +109,13 @@ def main(learning_rate):
     for epoch in range(last_train + 1, last_train + max_epoch + 1):
         train(epoch, learning_rate, logger)
         (pred, truth, psnr_all, ssim_all, psnr_mean, ssim_mean) = test(epoch, logger)
-
-        if psnr_mean > psnr_max:
-            psnr_max = psnr_mean
-            if psnr_mean > 27 :
-                name = result_path + '/' + 'Test_{}_{:.2f}_{:.3f}'.format(epoch, psnr_max, ssim_mean) + '.mat'
-                scio.savemat(name, {'truth':truth, 'pred': pred, 'psnr_list':psnr_all, 'ssim_list':ssim_all})
-                checkpoint(epoch, model_path, logger)
+        # //保存模型
+        # if psnr_mean > psnr_max:
+        #     psnr_max = psnr_mean
+        #     if psnr_mean > 27 :
+        #         name = result_path + '/' + 'Test_{}_{:.2f}_{:.3f}'.format(epoch, psnr_max, ssim_mean) + '.mat'
+        #         scio.savemat(name, {'truth':truth, 'pred': pred, 'psnr_list':psnr_all, 'ssim_list':ssim_all})
+        #         checkpoint(epoch, model_path, logger)
         
         #if (epoch % lr_epoch == 0) and (epoch < 200):
             #learning_rate = learning_rate * lr_scale

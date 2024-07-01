@@ -1,0 +1,2 @@
+2024-06-19 20:04:38,316 - INFO: Learning rate:0.0004, batch_size:5.
+
