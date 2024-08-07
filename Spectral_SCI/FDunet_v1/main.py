@@ -1,5 +1,7 @@
 #from dataloader import dataset
-from models_v5 import GAP_net
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+from model_archs.models_v13 import GAP_net
 from utils import *
 #from torch.utils.data import DataLoader
 import torch.optim as optim
@@ -8,10 +10,8 @@ import torch
 import scipy.io as scio
 import time
 import datetime
-import os
 import numpy as np
 from torch.autograd import Variable
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 torch.backends.cudnn.enabled = True
 torch.backends.cudnn.benchmark = True
 if not torch.cuda.is_available():
@@ -25,7 +25,7 @@ batch_size = 5
 nC, H, W = 28, 256, 310
 last_train = 0                        # for finetune
 model_save_filename = ''                 # for finetune
-max_epoch = 100
+max_epoch = 200
 learning_rate = 0.0004
 epoch_sam_num = 5000
 batch_num = int(np.floor(epoch_sam_num/batch_size))
@@ -35,11 +35,16 @@ train_set = LoadTraining(data_path)
 test_data = LoadTest(test_path)
 batch_size_test = len(test_data)
 model = GAP_net().cuda()
-
+# 显示模型结构
+# for name, module in model.named_children():
+#     print(name)
+#     print(module)
+#     print('\n')
 if last_train != 0:
     model = torch.load('./model/' + model_save_filename + '/model_epoch_{}.pth'.format(last_train))    
 optimizer = torch.optim.Adam(model.parameters(), lr = learning_rate, betas=(0.9, 0.999))
 mse = torch.nn.MSELoss().cuda()
+
 torch.autograd.set_detect_anomaly(True)
 
 def train(epoch, learning_rate, logger):
@@ -56,8 +61,7 @@ def train(epoch, learning_rate, logger):
         optimizer.zero_grad()
         Loss.backward()
         optimizer.step()
-        ## 调试阶段！！记得删掉！！
-        # break
+        
     end = time.time()
     logger.info("===> Epoch {} Complete: Avg. Loss: {:.6f} time: {:.2f}".format(epoch, epoch_loss/batch_num, (end - begin)))
 
@@ -105,7 +109,7 @@ def main(learning_rate):
     logger = gen_log(model_path)
     logger.info("Learning rate:{}, batch_size:{}.\n".format(learning_rate, batch_size))
     psnr_max = 0
-    
+    # logger.info("MODEL-----Info{}".format(model))
     for epoch in range(last_train + 1, last_train + max_epoch + 1):
         train(epoch, learning_rate, logger)
         (pred, truth, psnr_all, ssim_all, psnr_mean, ssim_mean) = test(epoch, logger)

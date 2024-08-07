@@ -1,0 +1,7 @@
+Spectral_SCI/Data/
+Spectral_SCI/FDunet_v1/logs/*
+Spectral_SCI/FDunet_v1/model
+Spectral_SCI/FDunet_v1/__pycache__/*
+
+*.pyc
+

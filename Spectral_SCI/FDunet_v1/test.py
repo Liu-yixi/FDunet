@@ -1,4 +1,4 @@
-from models import GAP_net
+from model_archs.models import GAP_net
 from utils import *
 import torch.optim as optim
 import torch.nn as nn

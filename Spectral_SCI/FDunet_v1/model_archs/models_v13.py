@@ -11,14 +11,21 @@ class GAP_net(nn.Module):
         middle_channel = 28
         self.unet1 = Unet(28, 28)
         self.unet2 = Unet(28, 28)
-        self.unet3 = Unet(28, 28)
-        self.unet4 = Unet(middle_channel, middle_channel)
+        self.unet3 = Unet_2(28, 28)
+        self.unet4 = Unet_2(middle_channel, middle_channel)
         self.unet5 = Unet_2(middle_channel, middle_channel)
         self.unet6 = Unet_2(middle_channel, middle_channel)
         self.unet7 = Unet_2(28, 28)
-        self.unet8 = Unet_2(28, 28)
+        self.unet8 = Unet(28, 28)
         self.unet9 = Unet(28, 28)
         
+        self.Phipredict1 = FGD()
+        self.Phipredict2 = FGD()
+        self.Phipredict3 = FGD()
+        # unet-arc define
+        self.maxpool_x = nn.MaxPool2d(2,2)
+        self.maxpool_phi = nn.MaxPool2d(2,2)
+        self.maxpool_y = nn.MaxPool2d(2,2)
         
         self.downsample_x = nn.Sequential(
             nn.Conv2d(28, middle_channel, kernel_size=2, stride=2),
@@ -51,6 +58,9 @@ class GAP_net(nn.Module):
         y1 = y
         ## down
         ### stage 1
+        Phi = self.Phipredict1(Phi)
+        Phi_s = torch.sum(Phi, dim=1)
+        Phi_s[Phi_s==0] = 1
         yb = A(x,Phi)
         x = x + At(torch.div(y1-yb,Phi_s),Phi)  # c=28
         x = shift_back(x)
@@ -64,10 +74,21 @@ class GAP_net(nn.Module):
         x = self.unet2(x)
         x = shift(x)
         
+        x = self.downsample_x(x)
+        Phi = self.downsample_phi(Phi)
+        Phi = self.Phipredict2(Phi)
+        Phi_s = torch.sum(Phi, dim=1)
+        Phi_s[Phi_s==0] = 1
+        # TODO：交换在dim0之后增加一个维度为1
+        y_tmp = torch.unsqueeze(y1, 1)
+        y2 = self.downsample_y(y_tmp)
+        # y2的dim1维度去掉
+        y2 = torch.squeeze(y2, 1)
+        
         
         ## stage 3
         yb = A(x,Phi)
-        x = x + At(torch.div(y1-yb,Phi_s),Phi)
+        x = x + At(torch.div(y2-yb,Phi_s),Phi)
         x = shift_back(x)
         x = self.unet3(x)
         x = shift(x)
@@ -76,22 +97,12 @@ class GAP_net(nn.Module):
         
         ### stage 4
         yb = A(x,Phi)
-        x = x + At(torch.div(y1-yb,Phi_s),Phi)
+        x = x + At(torch.div(y2-yb,Phi_s),Phi)
         x = shift_back(x)
         x = self.unet4(x)
         x = shift(x)
         
-        x = self.downsample_x(x)
-        Phi = self.downsample_phi(Phi)
-        # TODO：交换在dim0之后增加一个维度为1
-        y_tmp = torch.unsqueeze(y1, 1)
-        y2 = self.downsample_y(y_tmp)
-        # y2的dim1维度去掉
-        y2 = torch.squeeze(y2, 1)
-        Phi_s = torch.sum(Phi, dim=1)
-        Phi_s[Phi_s==0] = 1
-        
-        ## latent space
+        ## bottom
         ### stage 5
         yb = A(x,Phi)
         x = x + At(torch.div(y2-yb,Phi_s),Phi)
@@ -114,22 +125,22 @@ class GAP_net(nn.Module):
         x = self.unet7(x)      
         x = shift(x)
         
-        
-        
-        ### stage 8
-        yb = A(x,Phi)
-        x = x + At(torch.div(y2-yb,Phi_s),Phi)
-        x = shift_back(x)
-        x = self.unet8(x)
-        x = shift(x)
-        
-        # upsample
         x = self.upsample1_x(x)           # 128-64
         Phi = self.upsample1_phi(Phi)
+        Phi = self.Phipredict3(Phi)
         # print(x)
         # y = self.upsample1_y(y)
         Phi_s = torch.sum(Phi, dim=1)
         Phi_s[Phi_s==0] = 1
+        
+        ### stage 8
+        yb = A(x,Phi)
+        x = x + At(torch.div(y1-yb,Phi_s),Phi)
+        x = shift_back(x)
+        x = self.unet8(x)
+        x = shift(x)
+        
+        
         
         ### stage 9
         yb = A(x,Phi)
@@ -140,3 +151,5 @@ class GAP_net(nn.Module):
         x_list.append(x[:,:,:,0:256])
         output_list = x_list
         return output_list
+    
+    

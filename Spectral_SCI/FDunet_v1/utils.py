@@ -94,7 +94,7 @@ def shift_back(inputs,step=2):
 	
 
 def shuffle_crop(train_data, batch_size):
-    
+    # 中心裁剪+随机旋转90度
     index = np.random.choice(range(len(train_data)), batch_size)
     processed_data = np.zeros((batch_size, 256, 256, 28), dtype=np.float32)
     
